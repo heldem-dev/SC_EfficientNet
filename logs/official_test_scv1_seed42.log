@@ -1,8 +1,0 @@
-Test images: 1512; class counts: {'MEL': np.int64(171), 'NV': np.int64(909), 'BCC': np.int64(93), 'AKIEC': np.int64(43), 'BKL': np.int64(217), 'DF': np.int64(44), 'VASC': np.int64(35)}
-sc_b4_384_mac_20260921_190127 fold0: acc 0.8115 bacc 0.6466 f1 0.6817
-sc_b4_384_mac_20260921_190127 fold1: acc 0.8214 bacc 0.6909 f1 0.7166
-sc_b4_384_mac_20260921_190127 fold2: acc 0.8320 bacc 0.6959 f1 0.7257
-sc_b4_384_mac_20260921_190127 fold3: acc 0.8102 bacc 0.6684 f1 0.6967
-sc_b4_384_mac_20260921_190127 fold4: acc 0.8155 bacc 0.6473 f1 0.6939
-sc_b4_384_mac_20260921_190127 ENSEMBLE: acc 0.8479 bacc 0.7163 f1 0.7541
-Saved to results\official_test_scv1_seed42
