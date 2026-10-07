@@ -1,0 +1,36 @@
+[
+  {
+    "model": "EfficientNet-B0 baseline",
+    "input": 224,
+    "params_M": 4.016515,
+    "GFLOPs_single_view": 0.398081824,
+    "GFLOPs_5view_TTA": 1.99040912
+  },
+  {
+    "model": "SC-EfficientNet-B0",
+    "input": 224,
+    "params_M": 3.59998,
+    "GFLOPs_single_view": 0.377837026,
+    "GFLOPs_5view_TTA": 1.88918513,
+    "attention_params": 98,
+    "head_params": 4494,
+    "final_feature_channels": 320
+  },
+  {
+    "model": "EfficientNet-B4 (reference)",
+    "input": 384,
+    "params_M": 17.561167,
+    "GFLOPs_single_view": 4.508039776,
+    "GFLOPs_5view_TTA": 22.54019888
+  },
+  {
+    "model": "SC-EfficientNet-B4",
+    "input": 384,
+    "params_M": 16.7486,
+    "GFLOPs_single_view": 4.391729344,
+    "GFLOPs_5view_TTA": 21.95864672,
+    "attention_params": 98,
+    "head_params": 6286,
+    "final_feature_channels": 448
+  }
+]
