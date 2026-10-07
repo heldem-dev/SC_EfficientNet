@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# Dataset and downloads
+skin_cancer_data/
+ISIC2018_Task3_Training_Input/
+ISIC2018_Task3_Training_GroundTruth/
+ISIC2018_Task3_Training_Input.zip
+ISIC2018_Task3_Training_GroundTruth.zip
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Local experiment folders
+results/local/
+isic2018_test/
+HAM10000_metadata.csv
+*.zip
+!results/xai/sc_b4_384_xai.zip
+
+# OS/editor files
+.DS_Store
+._*
+.vscode/
+.idea/

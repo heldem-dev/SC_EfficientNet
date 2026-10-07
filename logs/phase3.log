@@ -1,0 +1,1164 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Device: cuda
+Model: baseline b0
+Image size: 224
+Results: results\baseline_b0_ce_seed42_20261004_163926
+Checkpoints: checkpoints\baseline_b0_ce_seed42_20261004_163926
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=1.05729 cls=1.05729 cons=0.00000
+Epoch 02/20 loss=0.54353 cls=0.54353 cons=0.00000
+Epoch 03/20 loss=0.41551 cls=0.41551 cons=0.00000
+Epoch 04/20 loss=0.32614 cls=0.32614 cons=0.00000
+Epoch 05/20 loss=0.26080 cls=0.26080 cons=0.00000
+Epoch 06/20 loss=0.20355 cls=0.20355 cons=0.00000
+Epoch 07/20 loss=0.15297 cls=0.15297 cons=0.00000
+Epoch 08/20 loss=0.13915 cls=0.13915 cons=0.00000
+Epoch 09/20 loss=0.10594 cls=0.10594 cons=0.00000
+Epoch 10/20 loss=0.08190 cls=0.08190 cons=0.00000
+Epoch 11/20 loss=0.06966 cls=0.06966 cons=0.00000
+Epoch 12/20 loss=0.07391 cls=0.07391 cons=0.00000
+Epoch 13/20 loss=0.06446 cls=0.06446 cons=0.00000
+Epoch 14/20 loss=0.04717 cls=0.04717 cons=0.00000
+Epoch 15/20 loss=0.04386 cls=0.04386 cons=0.00000
+Epoch 16/20 loss=0.05547 cls=0.05547 cons=0.00000
+Epoch 17/20 loss=0.06025 cls=0.06025 cons=0.00000
+Epoch 18/20 loss=0.03878 cls=0.03878 cons=0.00000
+Epoch 19/20 loss=0.03869 cls=0.03869 cons=0.00000
+Epoch 20/20 loss=0.03255 cls=0.03255 cons=0.00000
+Fold 0 accuracy: 0.8093
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=1.07524 cls=1.07524 cons=0.00000
+Epoch 02/20 loss=0.54797 cls=0.54797 cons=0.00000
+Epoch 03/20 loss=0.41678 cls=0.41678 cons=0.00000
+Epoch 04/20 loss=0.33159 cls=0.33159 cons=0.00000
+Epoch 05/20 loss=0.26005 cls=0.26005 cons=0.00000
+Epoch 06/20 loss=0.19404 cls=0.19404 cons=0.00000
+Epoch 07/20 loss=0.14537 cls=0.14537 cons=0.00000
+Epoch 08/20 loss=0.12875 cls=0.12875 cons=0.00000
+Epoch 09/20 loss=0.09820 cls=0.09820 cons=0.00000
+Epoch 10/20 loss=0.07825 cls=0.07825 cons=0.00000
+Epoch 11/20 loss=0.06936 cls=0.06936 cons=0.00000
+Epoch 12/20 loss=0.06116 cls=0.06116 cons=0.00000
+Epoch 13/20 loss=0.06044 cls=0.06044 cons=0.00000
+Epoch 14/20 loss=0.05923 cls=0.05923 cons=0.00000
+Epoch 15/20 loss=0.04643 cls=0.04643 cons=0.00000
+Epoch 16/20 loss=0.03765 cls=0.03765 cons=0.00000
+Epoch 17/20 loss=0.04091 cls=0.04091 cons=0.00000
+Epoch 18/20 loss=0.03367 cls=0.03367 cons=0.00000
+Epoch 19/20 loss=0.03184 cls=0.03184 cons=0.00000
+Epoch 20/20 loss=0.02686 cls=0.02686 cons=0.00000
+Fold 1 accuracy: 0.8292
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=1.08443 cls=1.08443 cons=0.00000
+Epoch 02/20 loss=0.54374 cls=0.54374 cons=0.00000
+Epoch 03/20 loss=0.41168 cls=0.41168 cons=0.00000
+Epoch 04/20 loss=0.31322 cls=0.31322 cons=0.00000
+Epoch 05/20 loss=0.24278 cls=0.24278 cons=0.00000
+Epoch 06/20 loss=0.19713 cls=0.19713 cons=0.00000
+Epoch 07/20 loss=0.14784 cls=0.14784 cons=0.00000
+Epoch 08/20 loss=0.12310 cls=0.12310 cons=0.00000
+Epoch 09/20 loss=0.09967 cls=0.09967 cons=0.00000
+Epoch 10/20 loss=0.08698 cls=0.08698 cons=0.00000
+Epoch 11/20 loss=0.07621 cls=0.07621 cons=0.00000
+Epoch 12/20 loss=0.06389 cls=0.06389 cons=0.00000
+Epoch 13/20 loss=0.06742 cls=0.06742 cons=0.00000
+Epoch 14/20 loss=0.04863 cls=0.04863 cons=0.00000
+Epoch 15/20 loss=0.04218 cls=0.04218 cons=0.00000
+Epoch 16/20 loss=0.03899 cls=0.03899 cons=0.00000
+Epoch 17/20 loss=0.04133 cls=0.04133 cons=0.00000
+Epoch 18/20 loss=0.03908 cls=0.03908 cons=0.00000
+Epoch 19/20 loss=0.02965 cls=0.02965 cons=0.00000
+Epoch 20/20 loss=0.03912 cls=0.03912 cons=0.00000
+Fold 2 accuracy: 0.8428
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=1.09075 cls=1.09075 cons=0.00000
+Epoch 02/20 loss=0.53914 cls=0.53914 cons=0.00000
+Epoch 03/20 loss=0.41105 cls=0.41105 cons=0.00000
+Epoch 04/20 loss=0.31667 cls=0.31667 cons=0.00000
+Epoch 05/20 loss=0.24243 cls=0.24243 cons=0.00000
+Epoch 06/20 loss=0.19004 cls=0.19004 cons=0.00000
+Epoch 07/20 loss=0.16118 cls=0.16118 cons=0.00000
+Epoch 08/20 loss=0.11858 cls=0.11858 cons=0.00000
+Epoch 09/20 loss=0.10309 cls=0.10309 cons=0.00000
+Epoch 10/20 loss=0.09072 cls=0.09072 cons=0.00000
+Epoch 11/20 loss=0.08483 cls=0.08483 cons=0.00000
+Epoch 12/20 loss=0.07022 cls=0.07022 cons=0.00000
+Epoch 13/20 loss=0.05512 cls=0.05512 cons=0.00000
+Epoch 14/20 loss=0.04996 cls=0.04996 cons=0.00000
+Epoch 15/20 loss=0.03851 cls=0.03851 cons=0.00000
+Epoch 16/20 loss=0.04442 cls=0.04442 cons=0.00000
+Epoch 17/20 loss=0.04181 cls=0.04181 cons=0.00000
+Epoch 18/20 loss=0.05296 cls=0.05296 cons=0.00000
+Epoch 19/20 loss=0.03883 cls=0.03883 cons=0.00000
+Epoch 20/20 loss=0.03779 cls=0.03779 cons=0.00000
+Fold 3 accuracy: 0.7994
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=1.08754 cls=1.08754 cons=0.00000
+Epoch 02/20 loss=0.55684 cls=0.55684 cons=0.00000
+Epoch 03/20 loss=0.42479 cls=0.42479 cons=0.00000
+Epoch 04/20 loss=0.32100 cls=0.32100 cons=0.00000
+Epoch 05/20 loss=0.25708 cls=0.25708 cons=0.00000
+Epoch 06/20 loss=0.21425 cls=0.21425 cons=0.00000
+Epoch 07/20 loss=0.17334 cls=0.17334 cons=0.00000
+Epoch 08/20 loss=0.12805 cls=0.12805 cons=0.00000
+Epoch 09/20 loss=0.10097 cls=0.10097 cons=0.00000
+Epoch 10/20 loss=0.09456 cls=0.09456 cons=0.00000
+Epoch 11/20 loss=0.08653 cls=0.08653 cons=0.00000
+Epoch 12/20 loss=0.06149 cls=0.06149 cons=0.00000
+Epoch 13/20 loss=0.07578 cls=0.07578 cons=0.00000
+Epoch 14/20 loss=0.05554 cls=0.05554 cons=0.00000
+Epoch 15/20 loss=0.04331 cls=0.04331 cons=0.00000
+Epoch 16/20 loss=0.04253 cls=0.04253 cons=0.00000
+Epoch 17/20 loss=0.03312 cls=0.03312 cons=0.00000
+Epoch 18/20 loss=0.03242 cls=0.03242 cons=0.00000
+Epoch 19/20 loss=0.03389 cls=0.03389 cons=0.00000
+Epoch 20/20 loss=0.02837 cls=0.02837 cons=0.00000
+Fold 4 accuracy: 0.8308
+
+========== OOF SUMMARY ==========
+Accuracy: 0.822267
+Macro P/R/F1: 0.6985 / 0.6563 / 0.6736
+Saved: results\baseline_b0_ce_seed42_20261004_163926
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Device: cuda
+Model: sc b0
+Image size: 224
+Results: results\sc_b0_ce_lambda0_attention_only_seed42_20261004_170434
+Checkpoints: checkpoints\sc_b0_ce_lambda0_attention_only_seed42_20261004_170434
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=0.86677 cls=0.86677 cons=0.00000 mask_mean=0.377 mask<0.5=0.657
+Epoch 02/20 loss=0.49729 cls=0.49729 cons=0.00000 mask_mean=0.514 mask<0.5=0.489
+Epoch 03/20 loss=0.37034 cls=0.37034 cons=0.00000 mask_mean=0.576 mask<0.5=0.393
+Epoch 04/20 loss=0.29850 cls=0.29850 cons=0.00000 mask_mean=0.614 mask<0.5=0.334
+Epoch 05/20 loss=0.22390 cls=0.22390 cons=0.00000 mask_mean=0.645 mask<0.5=0.291
+Epoch 06/20 loss=0.18585 cls=0.18585 cons=0.00000 mask_mean=0.669 mask<0.5=0.267
+Epoch 07/20 loss=0.14161 cls=0.14161 cons=0.00000 mask_mean=0.689 mask<0.5=0.252
+Epoch 08/20 loss=0.12129 cls=0.12129 cons=0.00000 mask_mean=0.697 mask<0.5=0.246
+Epoch 09/20 loss=0.09092 cls=0.09092 cons=0.00000 mask_mean=0.702 mask<0.5=0.245
+Epoch 10/20 loss=0.07481 cls=0.07481 cons=0.00000 mask_mean=0.711 mask<0.5=0.240
+Epoch 11/20 loss=0.06175 cls=0.06175 cons=0.00000 mask_mean=0.720 mask<0.5=0.234
+Epoch 12/20 loss=0.06770 cls=0.06770 cons=0.00000 mask_mean=0.727 mask<0.5=0.231
+Epoch 13/20 loss=0.05975 cls=0.05975 cons=0.00000 mask_mean=0.731 mask<0.5=0.229
+Epoch 14/20 loss=0.04678 cls=0.04678 cons=0.00000 mask_mean=0.736 mask<0.5=0.226
+Epoch 15/20 loss=0.04649 cls=0.04649 cons=0.00000 mask_mean=0.740 mask<0.5=0.223
+Epoch 16/20 loss=0.04806 cls=0.04806 cons=0.00000 mask_mean=0.733 mask<0.5=0.228
+Epoch 17/20 loss=0.03975 cls=0.03975 cons=0.00000 mask_mean=0.735 mask<0.5=0.224
+Epoch 18/20 loss=0.03536 cls=0.03536 cons=0.00000 mask_mean=0.732 mask<0.5=0.229
+Epoch 19/20 loss=0.03699 cls=0.03699 cons=0.00000 mask_mean=0.738 mask<0.5=0.225
+Epoch 20/20 loss=0.03360 cls=0.03360 cons=0.00000 mask_mean=0.740 mask<0.5=0.219
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 0 accuracy: 0.8297
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=0.90313 cls=0.90313 cons=0.00000 mask_mean=0.618 mask<0.5=0.310
+Epoch 02/20 loss=0.47522 cls=0.47522 cons=0.00000 mask_mean=0.694 mask<0.5=0.219
+Epoch 03/20 loss=0.36956 cls=0.36956 cons=0.00000 mask_mean=0.727 mask<0.5=0.196
+Epoch 04/20 loss=0.27923 cls=0.27923 cons=0.00000 mask_mean=0.752 mask<0.5=0.181
+Epoch 05/20 loss=0.21206 cls=0.21206 cons=0.00000 mask_mean=0.771 mask<0.5=0.171
+Epoch 06/20 loss=0.16235 cls=0.16235 cons=0.00000 mask_mean=0.782 mask<0.5=0.166
+Epoch 07/20 loss=0.11051 cls=0.11051 cons=0.00000 mask_mean=0.792 mask<0.5=0.159
+Epoch 08/20 loss=0.10168 cls=0.10168 cons=0.00000 mask_mean=0.797 mask<0.5=0.156
+Epoch 09/20 loss=0.07085 cls=0.07085 cons=0.00000 mask_mean=0.798 mask<0.5=0.159
+Epoch 10/20 loss=0.07522 cls=0.07522 cons=0.00000 mask_mean=0.796 mask<0.5=0.165
+Epoch 11/20 loss=0.05093 cls=0.05093 cons=0.00000 mask_mean=0.795 mask<0.5=0.169
+Epoch 12/20 loss=0.05009 cls=0.05009 cons=0.00000 mask_mean=0.796 mask<0.5=0.170
+Epoch 13/20 loss=0.04322 cls=0.04322 cons=0.00000 mask_mean=0.795 mask<0.5=0.175
+Epoch 14/20 loss=0.04408 cls=0.04408 cons=0.00000 mask_mean=0.794 mask<0.5=0.179
+Epoch 15/20 loss=0.03828 cls=0.03828 cons=0.00000 mask_mean=0.792 mask<0.5=0.186
+Epoch 16/20 loss=0.03352 cls=0.03352 cons=0.00000 mask_mean=0.790 mask<0.5=0.192
+Epoch 17/20 loss=0.03696 cls=0.03696 cons=0.00000 mask_mean=0.799 mask<0.5=0.180
+Epoch 18/20 loss=0.02728 cls=0.02728 cons=0.00000 mask_mean=0.797 mask<0.5=0.186
+Epoch 19/20 loss=0.02514 cls=0.02514 cons=0.00000 mask_mean=0.794 mask<0.5=0.192
+Epoch 20/20 loss=0.03054 cls=0.03054 cons=0.00000 mask_mean=0.799 mask<0.5=0.186
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 1 accuracy: 0.8307
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=0.86273 cls=0.86273 cons=0.00000 mask_mean=0.751 mask<0.5=0.225
+Epoch 02/20 loss=0.47767 cls=0.47767 cons=0.00000 mask_mean=0.737 mask<0.5=0.244
+Epoch 03/20 loss=0.36406 cls=0.36406 cons=0.00000 mask_mean=0.746 mask<0.5=0.242
+Epoch 04/20 loss=0.27452 cls=0.27452 cons=0.00000 mask_mean=0.752 mask<0.5=0.240
+Epoch 05/20 loss=0.21134 cls=0.21134 cons=0.00000 mask_mean=0.764 mask<0.5=0.232
+Epoch 06/20 loss=0.16587 cls=0.16587 cons=0.00000 mask_mean=0.768 mask<0.5=0.230
+Epoch 07/20 loss=0.13529 cls=0.13529 cons=0.00000 mask_mean=0.767 mask<0.5=0.232
+Epoch 08/20 loss=0.09825 cls=0.09825 cons=0.00000 mask_mean=0.770 mask<0.5=0.231
+Epoch 09/20 loss=0.08156 cls=0.08156 cons=0.00000 mask_mean=0.767 mask<0.5=0.235
+Epoch 10/20 loss=0.07582 cls=0.07582 cons=0.00000 mask_mean=0.763 mask<0.5=0.239
+Epoch 11/20 loss=0.06367 cls=0.06367 cons=0.00000 mask_mean=0.763 mask<0.5=0.240
+Epoch 12/20 loss=0.05980 cls=0.05980 cons=0.00000 mask_mean=0.763 mask<0.5=0.241
+Epoch 13/20 loss=0.05253 cls=0.05253 cons=0.00000 mask_mean=0.762 mask<0.5=0.243
+Epoch 14/20 loss=0.03675 cls=0.03675 cons=0.00000 mask_mean=0.761 mask<0.5=0.244
+Epoch 15/20 loss=0.03779 cls=0.03779 cons=0.00000 mask_mean=0.763 mask<0.5=0.243
+Epoch 16/20 loss=0.03273 cls=0.03273 cons=0.00000 mask_mean=0.761 mask<0.5=0.247
+Epoch 17/20 loss=0.03243 cls=0.03243 cons=0.00000 mask_mean=0.759 mask<0.5=0.249
+Epoch 18/20 loss=0.03171 cls=0.03171 cons=0.00000 mask_mean=0.758 mask<0.5=0.251
+Epoch 19/20 loss=0.02616 cls=0.02616 cons=0.00000 mask_mean=0.754 mask<0.5=0.255
+Epoch 20/20 loss=0.02972 cls=0.02972 cons=0.00000 mask_mean=0.749 mask<0.5=0.259
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 2 accuracy: 0.8413
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=0.84058 cls=0.84058 cons=0.00000 mask_mean=0.349 mask<0.5=0.729
+Epoch 02/20 loss=0.50229 cls=0.50229 cons=0.00000 mask_mean=0.435 mask<0.5=0.622
+Epoch 03/20 loss=0.39379 cls=0.39379 cons=0.00000 mask_mean=0.471 mask<0.5=0.578
+Epoch 04/20 loss=0.30738 cls=0.30738 cons=0.00000 mask_mean=0.505 mask<0.5=0.531
+Epoch 05/20 loss=0.24106 cls=0.24106 cons=0.00000 mask_mean=0.516 mask<0.5=0.509
+Epoch 06/20 loss=0.19748 cls=0.19748 cons=0.00000 mask_mean=0.528 mask<0.5=0.491
+Epoch 07/20 loss=0.16244 cls=0.16244 cons=0.00000 mask_mean=0.537 mask<0.5=0.478
+Epoch 08/20 loss=0.12403 cls=0.12403 cons=0.00000 mask_mean=0.545 mask<0.5=0.464
+Epoch 09/20 loss=0.09488 cls=0.09488 cons=0.00000 mask_mean=0.551 mask<0.5=0.453
+Epoch 10/20 loss=0.08805 cls=0.08805 cons=0.00000 mask_mean=0.580 mask<0.5=0.411
+Epoch 11/20 loss=0.07920 cls=0.07920 cons=0.00000 mask_mean=0.584 mask<0.5=0.409
+Epoch 12/20 loss=0.06912 cls=0.06912 cons=0.00000 mask_mean=0.576 mask<0.5=0.419
+Epoch 13/20 loss=0.05664 cls=0.05664 cons=0.00000 mask_mean=0.579 mask<0.5=0.415
+Epoch 14/20 loss=0.04978 cls=0.04978 cons=0.00000 mask_mean=0.578 mask<0.5=0.415
+Epoch 15/20 loss=0.04930 cls=0.04930 cons=0.00000 mask_mean=0.574 mask<0.5=0.421
+Epoch 16/20 loss=0.04215 cls=0.04215 cons=0.00000 mask_mean=0.573 mask<0.5=0.422
+Epoch 17/20 loss=0.03900 cls=0.03900 cons=0.00000 mask_mean=0.574 mask<0.5=0.418
+Epoch 18/20 loss=0.03553 cls=0.03553 cons=0.00000 mask_mean=0.602 mask<0.5=0.383
+Epoch 19/20 loss=0.04246 cls=0.04246 cons=0.00000 mask_mean=0.588 mask<0.5=0.401
+Epoch 20/20 loss=0.03050 cls=0.03050 cons=0.00000 mask_mean=0.582 mask<0.5=0.409
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 3 accuracy: 0.8113
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=0.88336 cls=0.88336 cons=0.00000 mask_mean=0.558 mask<0.5=0.436
+Epoch 02/20 loss=0.46833 cls=0.46833 cons=0.00000 mask_mean=0.588 mask<0.5=0.424
+Epoch 03/20 loss=0.36232 cls=0.36232 cons=0.00000 mask_mean=0.613 mask<0.5=0.405
+Epoch 04/20 loss=0.27595 cls=0.27595 cons=0.00000 mask_mean=0.628 mask<0.5=0.392
+Epoch 05/20 loss=0.20542 cls=0.20542 cons=0.00000 mask_mean=0.645 mask<0.5=0.376
+Epoch 06/20 loss=0.17136 cls=0.17136 cons=0.00000 mask_mean=0.649 mask<0.5=0.373
+Epoch 07/20 loss=0.13362 cls=0.13362 cons=0.00000 mask_mean=0.659 mask<0.5=0.365
+Epoch 08/20 loss=0.09757 cls=0.09757 cons=0.00000 mask_mean=0.659 mask<0.5=0.366
+Epoch 09/20 loss=0.08242 cls=0.08242 cons=0.00000 mask_mean=0.658 mask<0.5=0.371
+Epoch 10/20 loss=0.07210 cls=0.07210 cons=0.00000 mask_mean=0.660 mask<0.5=0.369
+Epoch 11/20 loss=0.07179 cls=0.07179 cons=0.00000 mask_mean=0.656 mask<0.5=0.376
+Epoch 12/20 loss=0.05816 cls=0.05816 cons=0.00000 mask_mean=0.654 mask<0.5=0.381
+Epoch 13/20 loss=0.05797 cls=0.05797 cons=0.00000 mask_mean=0.652 mask<0.5=0.383
+Epoch 14/20 loss=0.04943 cls=0.04943 cons=0.00000 mask_mean=0.651 mask<0.5=0.388
+Epoch 15/20 loss=0.03581 cls=0.03581 cons=0.00000 mask_mean=0.655 mask<0.5=0.382
+Epoch 16/20 loss=0.04317 cls=0.04317 cons=0.00000 mask_mean=0.652 mask<0.5=0.387
+Epoch 17/20 loss=0.02898 cls=0.02898 cons=0.00000 mask_mean=0.650 mask<0.5=0.391
+Epoch 18/20 loss=0.03061 cls=0.03061 cons=0.00000 mask_mean=0.646 mask<0.5=0.397
+Epoch 19/20 loss=0.03934 cls=0.03934 cons=0.00000 mask_mean=0.633 mask<0.5=0.414
+Epoch 20/20 loss=0.02409 cls=0.02409 cons=0.00000 mask_mean=0.636 mask<0.5=0.411
+Fold 4 accuracy: 0.8288
+
+========== OOF SUMMARY ==========
+Accuracy: 0.828357
+Macro P/R/F1: 0.7193 / 0.6639 / 0.6879
+Saved: results\sc_b0_ce_lambda0_attention_only_seed42_20261004_170434
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Device: cuda
+Model: sc b0
+Image size: 224
+Results: results\sc_b0_ce_lambda0.1_seed42_20261004_172859
+Checkpoints: checkpoints\sc_b0_ce_lambda0.1_seed42_20261004_172859
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=1.09337 cls=1.05726 cons=0.36102 mask_mean=0.519 mask<0.5=0.458
+Epoch 02/20 loss=0.60037 cls=0.59072 cons=0.09656 mask_mean=0.849 mask<0.5=0.048
+Epoch 03/20 loss=0.46677 cls=0.46069 cons=0.06078 mask_mean=0.900 mask<0.5=0.018
+Epoch 04/20 loss=0.37110 cls=0.36688 cons=0.04215 mask_mean=0.922 mask<0.5=0.008
+Epoch 05/20 loss=0.30345 cls=0.30010 cons=0.03355 mask_mean=0.937 mask<0.5=0.003
+Epoch 06/20 loss=0.25368 cls=0.25129 cons=0.02387 mask_mean=0.948 mask<0.5=0.001
+Epoch 07/20 loss=0.20476 cls=0.20284 cons=0.01917 mask_mean=0.956 mask<0.5=0.000
+Epoch 08/20 loss=0.15711 cls=0.15565 cons=0.01457 mask_mean=0.960 mask<0.5=0.000
+Epoch 09/20 loss=0.13509 cls=0.13397 cons=0.01126 mask_mean=0.965 mask<0.5=0.000
+Epoch 10/20 loss=0.10958 cls=0.10858 cons=0.00999 mask_mean=0.968 mask<0.5=0.000
+Epoch 11/20 loss=0.08362 cls=0.08287 cons=0.00757 mask_mean=0.971 mask<0.5=0.000
+Epoch 12/20 loss=0.09369 cls=0.09300 cons=0.00682 mask_mean=0.973 mask<0.5=0.000
+Epoch 13/20 loss=0.07638 cls=0.07579 cons=0.00588 mask_mean=0.975 mask<0.5=0.000
+Epoch 14/20 loss=0.06822 cls=0.06774 cons=0.00479 mask_mean=0.977 mask<0.5=0.000
+Epoch 15/20 loss=0.05302 cls=0.05261 cons=0.00412 mask_mean=0.977 mask<0.5=0.000
+Epoch 16/20 loss=0.05665 cls=0.05625 cons=0.00403 mask_mean=0.978 mask<0.5=0.000
+Epoch 17/20 loss=0.05030 cls=0.04994 cons=0.00363 mask_mean=0.980 mask<0.5=0.000
+Epoch 18/20 loss=0.03922 cls=0.03897 cons=0.00252 mask_mean=0.981 mask<0.5=0.000
+Epoch 19/20 loss=0.03993 cls=0.03970 cons=0.00238 mask_mean=0.982 mask<0.5=0.000
+Epoch 20/20 loss=0.03045 cls=0.03027 cons=0.00179 mask_mean=0.982 mask<0.5=0.000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 0 accuracy: 0.8322
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=1.18550 cls=1.15686 cons=0.28635 mask_mean=0.639 mask<0.5=0.300
+Epoch 02/20 loss=0.63925 cls=0.63039 cons=0.08860 mask_mean=0.870 mask<0.5=0.022
+Epoch 03/20 loss=0.49436 cls=0.48860 cons=0.05758 mask_mean=0.913 mask<0.5=0.005
+Epoch 04/20 loss=0.41290 cls=0.40873 cons=0.04166 mask_mean=0.932 mask<0.5=0.002
+Epoch 05/20 loss=0.32058 cls=0.31744 cons=0.03144 mask_mean=0.943 mask<0.5=0.001
+Epoch 06/20 loss=0.24451 cls=0.24215 cons=0.02360 mask_mean=0.952 mask<0.5=0.000
+Epoch 07/20 loss=0.19194 cls=0.19010 cons=0.01837 mask_mean=0.959 mask<0.5=0.000
+Epoch 08/20 loss=0.17341 cls=0.17203 cons=0.01376 mask_mean=0.963 mask<0.5=0.000
+Epoch 09/20 loss=0.13182 cls=0.13073 cons=0.01092 mask_mean=0.966 mask<0.5=0.000
+Epoch 10/20 loss=0.11715 cls=0.11622 cons=0.00928 mask_mean=0.969 mask<0.5=0.000
+Epoch 11/20 loss=0.09636 cls=0.09560 cons=0.00762 mask_mean=0.971 mask<0.5=0.000
+Epoch 12/20 loss=0.07604 cls=0.07544 cons=0.00601 mask_mean=0.973 mask<0.5=0.000
+Epoch 13/20 loss=0.09803 cls=0.09748 cons=0.00553 mask_mean=0.974 mask<0.5=0.000
+Epoch 14/20 loss=0.06969 cls=0.06925 cons=0.00442 mask_mean=0.975 mask<0.5=0.000
+Epoch 15/20 loss=0.06017 cls=0.05983 cons=0.00336 mask_mean=0.976 mask<0.5=0.000
+Epoch 16/20 loss=0.05537 cls=0.05503 cons=0.00339 mask_mean=0.977 mask<0.5=0.000
+Epoch 17/20 loss=0.05247 cls=0.05219 cons=0.00281 mask_mean=0.978 mask<0.5=0.000
+Epoch 18/20 loss=0.06121 cls=0.06088 cons=0.00336 mask_mean=0.979 mask<0.5=0.000
+Epoch 19/20 loss=0.03874 cls=0.03852 cons=0.00222 mask_mean=0.980 mask<0.5=0.000
+Epoch 20/20 loss=0.04174 cls=0.04155 cons=0.00187 mask_mean=0.980 mask<0.5=0.000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 1 accuracy: 0.8192
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=1.13501 cls=1.10500 cons=0.30003 mask_mean=0.829 mask<0.5=0.131
+Epoch 02/20 loss=0.62473 cls=0.61448 cons=0.10247 mask_mean=0.910 mask<0.5=0.029
+Epoch 03/20 loss=0.49139 cls=0.48532 cons=0.06071 mask_mean=0.939 mask<0.5=0.005
+Epoch 04/20 loss=0.37963 cls=0.37535 cons=0.04273 mask_mean=0.957 mask<0.5=0.000
+Epoch 05/20 loss=0.31989 cls=0.31667 cons=0.03219 mask_mean=0.966 mask<0.5=0.000
+Epoch 06/20 loss=0.26330 cls=0.26085 cons=0.02449 mask_mean=0.973 mask<0.5=0.000
+Epoch 07/20 loss=0.22029 cls=0.21830 cons=0.01985 mask_mean=0.978 mask<0.5=0.000
+Epoch 08/20 loss=0.16874 cls=0.16720 cons=0.01533 mask_mean=0.981 mask<0.5=0.000
+Epoch 09/20 loss=0.14726 cls=0.14602 cons=0.01236 mask_mean=0.983 mask<0.5=0.000
+Epoch 10/20 loss=0.14236 cls=0.14127 cons=0.01084 mask_mean=0.984 mask<0.5=0.000
+Epoch 11/20 loss=0.10695 cls=0.10610 cons=0.00858 mask_mean=0.985 mask<0.5=0.000
+Epoch 12/20 loss=0.10549 cls=0.10470 cons=0.00787 mask_mean=0.987 mask<0.5=0.000
+Epoch 13/20 loss=0.07963 cls=0.07904 cons=0.00589 mask_mean=0.987 mask<0.5=0.000
+Epoch 14/20 loss=0.06711 cls=0.06664 cons=0.00474 mask_mean=0.988 mask<0.5=0.000
+Epoch 15/20 loss=0.07039 cls=0.06995 cons=0.00439 mask_mean=0.988 mask<0.5=0.000
+Epoch 16/20 loss=0.04880 cls=0.04845 cons=0.00351 mask_mean=0.989 mask<0.5=0.000
+Epoch 17/20 loss=0.04371 cls=0.04343 cons=0.00275 mask_mean=0.989 mask<0.5=0.000
+Epoch 18/20 loss=0.06398 cls=0.06360 cons=0.00387 mask_mean=0.989 mask<0.5=0.000
+Epoch 19/20 loss=0.04595 cls=0.04563 cons=0.00318 mask_mean=0.989 mask<0.5=0.000
+Epoch 20/20 loss=0.05009 cls=0.04982 cons=0.00279 mask_mean=0.990 mask<0.5=0.000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 2 accuracy: 0.8488
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=1.09003 cls=1.05393 cons=0.36090 mask_mean=0.498 mask<0.5=0.480
+Epoch 02/20 loss=0.63497 cls=0.62536 cons=0.09606 mask_mean=0.835 mask<0.5=0.029
+Epoch 03/20 loss=0.48594 cls=0.48016 cons=0.05786 mask_mean=0.886 mask<0.5=0.006
+Epoch 04/20 loss=0.38480 cls=0.38050 cons=0.04295 mask_mean=0.917 mask<0.5=0.001
+Epoch 05/20 loss=0.31429 cls=0.31104 cons=0.03253 mask_mean=0.937 mask<0.5=0.000
+Epoch 06/20 loss=0.25158 cls=0.24892 cons=0.02660 mask_mean=0.947 mask<0.5=0.000
+Epoch 07/20 loss=0.21529 cls=0.21335 cons=0.01945 mask_mean=0.955 mask<0.5=0.000
+Epoch 08/20 loss=0.16916 cls=0.16758 cons=0.01581 mask_mean=0.961 mask<0.5=0.000
+Epoch 09/20 loss=0.11560 cls=0.11433 cons=0.01273 mask_mean=0.964 mask<0.5=0.000
+Epoch 10/20 loss=0.11076 cls=0.10973 cons=0.01027 mask_mean=0.968 mask<0.5=0.000
+Epoch 11/20 loss=0.09877 cls=0.09792 cons=0.00852 mask_mean=0.968 mask<0.5=0.000
+Epoch 12/20 loss=0.08792 cls=0.08714 cons=0.00775 mask_mean=0.971 mask<0.5=0.000
+Epoch 13/20 loss=0.07219 cls=0.07164 cons=0.00557 mask_mean=0.973 mask<0.5=0.000
+Epoch 14/20 loss=0.06271 cls=0.06223 cons=0.00480 mask_mean=0.973 mask<0.5=0.000
+Epoch 15/20 loss=0.05442 cls=0.05403 cons=0.00387 mask_mean=0.974 mask<0.5=0.000
+Epoch 16/20 loss=0.07600 cls=0.07552 cons=0.00473 mask_mean=0.975 mask<0.5=0.000
+Epoch 17/20 loss=0.05498 cls=0.05466 cons=0.00318 mask_mean=0.977 mask<0.5=0.000
+Epoch 18/20 loss=0.04635 cls=0.04606 cons=0.00289 mask_mean=0.978 mask<0.5=0.000
+Epoch 19/20 loss=0.03654 cls=0.03631 cons=0.00233 mask_mean=0.978 mask<0.5=0.000
+Epoch 20/20 loss=0.04529 cls=0.04501 cons=0.00278 mask_mean=0.979 mask<0.5=0.000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 3 accuracy: 0.8004
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=1.13204 cls=1.10064 cons=0.31393 mask_mean=0.638 mask<0.5=0.290
+Epoch 02/20 loss=0.62160 cls=0.61102 cons=0.10582 mask_mean=0.851 mask<0.5=0.027
+Epoch 03/20 loss=0.50508 cls=0.49816 cons=0.06917 mask_mean=0.895 mask<0.5=0.011
+Epoch 04/20 loss=0.39587 cls=0.39138 cons=0.04497 mask_mean=0.923 mask<0.5=0.004
+Epoch 05/20 loss=0.32252 cls=0.31910 cons=0.03421 mask_mean=0.941 mask<0.5=0.001
+Epoch 06/20 loss=0.26505 cls=0.26248 cons=0.02575 mask_mean=0.953 mask<0.5=0.000
+Epoch 07/20 loss=0.23831 cls=0.23616 cons=0.02153 mask_mean=0.959 mask<0.5=0.000
+Epoch 08/20 loss=0.17050 cls=0.16893 cons=0.01573 mask_mean=0.964 mask<0.5=0.000
+Epoch 09/20 loss=0.15660 cls=0.15531 cons=0.01288 mask_mean=0.967 mask<0.5=0.000
+Epoch 10/20 loss=0.13441 cls=0.13336 cons=0.01045 mask_mean=0.970 mask<0.5=0.000
+Epoch 11/20 loss=0.10847 cls=0.10758 cons=0.00891 mask_mean=0.973 mask<0.5=0.000
+Epoch 12/20 loss=0.09433 cls=0.09355 cons=0.00782 mask_mean=0.975 mask<0.5=0.000
+Epoch 13/20 loss=0.09402 cls=0.09334 cons=0.00682 mask_mean=0.976 mask<0.5=0.000
+Epoch 14/20 loss=0.06583 cls=0.06528 cons=0.00549 mask_mean=0.978 mask<0.5=0.000
+Epoch 15/20 loss=0.06769 cls=0.06715 cons=0.00537 mask_mean=0.980 mask<0.5=0.000
+Epoch 16/20 loss=0.05353 cls=0.05313 cons=0.00401 mask_mean=0.981 mask<0.5=0.000
+Epoch 17/20 loss=0.06456 cls=0.06414 cons=0.00422 mask_mean=0.981 mask<0.5=0.000
+Epoch 18/20 loss=0.04921 cls=0.04889 cons=0.00325 mask_mean=0.982 mask<0.5=0.000
+Epoch 19/20 loss=0.06443 cls=0.06406 cons=0.00367 mask_mean=0.983 mask<0.5=0.000
+Epoch 20/20 loss=0.04256 cls=0.04231 cons=0.00245 mask_mean=0.983 mask<0.5=0.000
+Fold 4 accuracy: 0.8288
+
+========== OOF SUMMARY ==========
+Accuracy: 0.825861
+Macro P/R/F1: 0.6895 / 0.6690 / 0.6769
+Saved: results\sc_b0_ce_lambda0.1_seed42_20261004_172859
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Device: cuda
+Model: baseline b0
+Image size: 224
+Results: results\baseline_b0_ce_seed43_20261004_175310
+Checkpoints: checkpoints\baseline_b0_ce_seed43_20261004_175310
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=1.11616 cls=1.11616 cons=0.00000
+Epoch 02/20 loss=0.54893 cls=0.54893 cons=0.00000
+Epoch 03/20 loss=0.41148 cls=0.41148 cons=0.00000
+Epoch 04/20 loss=0.33138 cls=0.33138 cons=0.00000
+Epoch 05/20 loss=0.25149 cls=0.25149 cons=0.00000
+Epoch 06/20 loss=0.19625 cls=0.19625 cons=0.00000
+Epoch 07/20 loss=0.15657 cls=0.15657 cons=0.00000
+Epoch 08/20 loss=0.13413 cls=0.13413 cons=0.00000
+Epoch 09/20 loss=0.12024 cls=0.12024 cons=0.00000
+Epoch 10/20 loss=0.09210 cls=0.09210 cons=0.00000
+Epoch 11/20 loss=0.07498 cls=0.07498 cons=0.00000
+Epoch 12/20 loss=0.07540 cls=0.07540 cons=0.00000
+Epoch 13/20 loss=0.06187 cls=0.06187 cons=0.00000
+Epoch 14/20 loss=0.05234 cls=0.05234 cons=0.00000
+Epoch 15/20 loss=0.04582 cls=0.04582 cons=0.00000
+Epoch 16/20 loss=0.03794 cls=0.03794 cons=0.00000
+Epoch 17/20 loss=0.03829 cls=0.03829 cons=0.00000
+Epoch 18/20 loss=0.03567 cls=0.03567 cons=0.00000
+Epoch 19/20 loss=0.04153 cls=0.04153 cons=0.00000
+Epoch 20/20 loss=0.03739 cls=0.03739 cons=0.00000
+Fold 0 accuracy: 0.8267
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=1.11180 cls=1.11180 cons=0.00000
+Epoch 02/20 loss=0.56182 cls=0.56182 cons=0.00000
+Epoch 03/20 loss=0.42324 cls=0.42324 cons=0.00000
+Epoch 04/20 loss=0.33708 cls=0.33708 cons=0.00000
+Epoch 05/20 loss=0.25586 cls=0.25586 cons=0.00000
+Epoch 06/20 loss=0.20670 cls=0.20670 cons=0.00000
+Epoch 07/20 loss=0.16945 cls=0.16945 cons=0.00000
+Epoch 08/20 loss=0.13095 cls=0.13095 cons=0.00000
+Epoch 09/20 loss=0.10370 cls=0.10370 cons=0.00000
+Epoch 10/20 loss=0.08668 cls=0.08668 cons=0.00000
+Epoch 11/20 loss=0.07540 cls=0.07540 cons=0.00000
+Epoch 12/20 loss=0.07096 cls=0.07096 cons=0.00000
+Epoch 13/20 loss=0.06177 cls=0.06177 cons=0.00000
+Epoch 14/20 loss=0.05178 cls=0.05178 cons=0.00000
+Epoch 15/20 loss=0.05436 cls=0.05436 cons=0.00000
+Epoch 16/20 loss=0.04451 cls=0.04451 cons=0.00000
+Epoch 17/20 loss=0.04091 cls=0.04091 cons=0.00000
+Epoch 18/20 loss=0.03663 cls=0.03663 cons=0.00000
+Epoch 19/20 loss=0.02948 cls=0.02948 cons=0.00000
+Epoch 20/20 loss=0.03347 cls=0.03347 cons=0.00000
+Fold 1 accuracy: 0.8207
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=1.07628 cls=1.07628 cons=0.00000
+Epoch 02/20 loss=0.54375 cls=0.54375 cons=0.00000
+Epoch 03/20 loss=0.41172 cls=0.41172 cons=0.00000
+Epoch 04/20 loss=0.32374 cls=0.32374 cons=0.00000
+Epoch 05/20 loss=0.26059 cls=0.26059 cons=0.00000
+Epoch 06/20 loss=0.19559 cls=0.19559 cons=0.00000
+Epoch 07/20 loss=0.15628 cls=0.15628 cons=0.00000
+Epoch 08/20 loss=0.12725 cls=0.12725 cons=0.00000
+Epoch 09/20 loss=0.11342 cls=0.11342 cons=0.00000
+Epoch 10/20 loss=0.09080 cls=0.09080 cons=0.00000
+Epoch 11/20 loss=0.06989 cls=0.06989 cons=0.00000
+Epoch 12/20 loss=0.06077 cls=0.06077 cons=0.00000
+Epoch 13/20 loss=0.05865 cls=0.05865 cons=0.00000
+Epoch 14/20 loss=0.04971 cls=0.04971 cons=0.00000
+Epoch 15/20 loss=0.05539 cls=0.05539 cons=0.00000
+Epoch 16/20 loss=0.05380 cls=0.05380 cons=0.00000
+Epoch 17/20 loss=0.05774 cls=0.05774 cons=0.00000
+Epoch 18/20 loss=0.05492 cls=0.05492 cons=0.00000
+Epoch 19/20 loss=0.03392 cls=0.03392 cons=0.00000
+Epoch 20/20 loss=0.01984 cls=0.01984 cons=0.00000
+Fold 2 accuracy: 0.8398
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=1.06461 cls=1.06461 cons=0.00000
+Epoch 02/20 loss=0.53264 cls=0.53264 cons=0.00000
+Epoch 03/20 loss=0.40648 cls=0.40648 cons=0.00000
+Epoch 04/20 loss=0.31914 cls=0.31914 cons=0.00000
+Epoch 05/20 loss=0.25275 cls=0.25275 cons=0.00000
+Epoch 06/20 loss=0.20386 cls=0.20386 cons=0.00000
+Epoch 07/20 loss=0.15507 cls=0.15507 cons=0.00000
+Epoch 08/20 loss=0.12450 cls=0.12450 cons=0.00000
+Epoch 09/20 loss=0.10859 cls=0.10859 cons=0.00000
+Epoch 10/20 loss=0.09367 cls=0.09367 cons=0.00000
+Epoch 11/20 loss=0.06743 cls=0.06743 cons=0.00000
+Epoch 12/20 loss=0.06591 cls=0.06591 cons=0.00000
+Epoch 13/20 loss=0.05676 cls=0.05676 cons=0.00000
+Epoch 14/20 loss=0.04614 cls=0.04614 cons=0.00000
+Epoch 15/20 loss=0.06075 cls=0.06075 cons=0.00000
+Epoch 16/20 loss=0.05111 cls=0.05111 cons=0.00000
+Epoch 17/20 loss=0.03346 cls=0.03346 cons=0.00000
+Epoch 18/20 loss=0.03550 cls=0.03550 cons=0.00000
+Epoch 19/20 loss=0.02809 cls=0.02809 cons=0.00000
+Epoch 20/20 loss=0.03566 cls=0.03566 cons=0.00000
+Fold 3 accuracy: 0.8133
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=1.07323 cls=1.07323 cons=0.00000
+Epoch 02/20 loss=0.53328 cls=0.53328 cons=0.00000
+Epoch 03/20 loss=0.42634 cls=0.42634 cons=0.00000
+Epoch 04/20 loss=0.31701 cls=0.31701 cons=0.00000
+Epoch 05/20 loss=0.24339 cls=0.24339 cons=0.00000
+Epoch 06/20 loss=0.20270 cls=0.20270 cons=0.00000
+Epoch 07/20 loss=0.15430 cls=0.15430 cons=0.00000
+Epoch 08/20 loss=0.13235 cls=0.13235 cons=0.00000
+Epoch 09/20 loss=0.10521 cls=0.10521 cons=0.00000
+Epoch 10/20 loss=0.09758 cls=0.09758 cons=0.00000
+Epoch 11/20 loss=0.07524 cls=0.07524 cons=0.00000
+Epoch 12/20 loss=0.05561 cls=0.05561 cons=0.00000
+Epoch 13/20 loss=0.06383 cls=0.06383 cons=0.00000
+Epoch 14/20 loss=0.04832 cls=0.04832 cons=0.00000
+Epoch 15/20 loss=0.04122 cls=0.04122 cons=0.00000
+Epoch 16/20 loss=0.04224 cls=0.04224 cons=0.00000
+Epoch 17/20 loss=0.05102 cls=0.05102 cons=0.00000
+Epoch 18/20 loss=0.05601 cls=0.05601 cons=0.00000
+Epoch 19/20 loss=0.04512 cls=0.04512 cons=0.00000
+Epoch 20/20 loss=0.03913 cls=0.03913 cons=0.00000
+Fold 4 accuracy: 0.8232
+
+========== OOF SUMMARY ==========
+Accuracy: 0.824763
+Macro P/R/F1: 0.7095 / 0.6780 / 0.6906
+Saved: results\baseline_b0_ce_seed43_20261004_175310
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Device: cuda
+Model: sc b0
+Image size: 224
+Results: results\sc_b0_ce_lambda0_attention_only_seed43_20261004_181823
+Checkpoints: checkpoints\sc_b0_ce_lambda0_attention_only_seed43_20261004_181823
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=0.87622 cls=0.87622 cons=0.00000 mask_mean=0.430 mask<0.5=0.615
+Epoch 02/20 loss=0.49293 cls=0.49293 cons=0.00000 mask_mean=0.501 mask<0.5=0.521
+Epoch 03/20 loss=0.37506 cls=0.37506 cons=0.00000 mask_mean=0.556 mask<0.5=0.450
+Epoch 04/20 loss=0.29089 cls=0.29089 cons=0.00000 mask_mean=0.576 mask<0.5=0.427
+Epoch 05/20 loss=0.22301 cls=0.22301 cons=0.00000 mask_mean=0.593 mask<0.5=0.406
+Epoch 06/20 loss=0.17812 cls=0.17812 cons=0.00000 mask_mean=0.617 mask<0.5=0.372
+Epoch 07/20 loss=0.13905 cls=0.13905 cons=0.00000 mask_mean=0.639 mask<0.5=0.339
+Epoch 08/20 loss=0.11760 cls=0.11760 cons=0.00000 mask_mean=0.627 mask<0.5=0.360
+Epoch 09/20 loss=0.10018 cls=0.10018 cons=0.00000 mask_mean=0.648 mask<0.5=0.329
+Epoch 10/20 loss=0.07838 cls=0.07838 cons=0.00000 mask_mean=0.638 mask<0.5=0.344
+Epoch 11/20 loss=0.07476 cls=0.07476 cons=0.00000 mask_mean=0.665 mask<0.5=0.304
+Epoch 12/20 loss=0.05998 cls=0.05998 cons=0.00000 mask_mean=0.664 mask<0.5=0.304
+Epoch 13/20 loss=0.04657 cls=0.04657 cons=0.00000 mask_mean=0.650 mask<0.5=0.327
+Epoch 14/20 loss=0.05330 cls=0.05330 cons=0.00000 mask_mean=0.646 mask<0.5=0.333
+Epoch 15/20 loss=0.04383 cls=0.04383 cons=0.00000 mask_mean=0.642 mask<0.5=0.340
+Epoch 16/20 loss=0.04411 cls=0.04411 cons=0.00000 mask_mean=0.639 mask<0.5=0.344
+Epoch 17/20 loss=0.03954 cls=0.03954 cons=0.00000 mask_mean=0.632 mask<0.5=0.356
+Epoch 18/20 loss=0.03207 cls=0.03207 cons=0.00000 mask_mean=0.629 mask<0.5=0.360
+Epoch 19/20 loss=0.04047 cls=0.04047 cons=0.00000 mask_mean=0.624 mask<0.5=0.367
+Epoch 20/20 loss=0.03408 cls=0.03408 cons=0.00000 mask_mean=0.662 mask<0.5=0.310
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 0 accuracy: 0.8232
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=0.87129 cls=0.87129 cons=0.00000 mask_mean=0.564 mask<0.5=0.410
+Epoch 02/20 loss=0.49492 cls=0.49492 cons=0.00000 mask_mean=0.663 mask<0.5=0.300
+Epoch 03/20 loss=0.37572 cls=0.37572 cons=0.00000 mask_mean=0.698 mask<0.5=0.274
+Epoch 04/20 loss=0.28432 cls=0.28432 cons=0.00000 mask_mean=0.721 mask<0.5=0.256
+Epoch 05/20 loss=0.21882 cls=0.21882 cons=0.00000 mask_mean=0.736 mask<0.5=0.244
+Epoch 06/20 loss=0.16864 cls=0.16864 cons=0.00000 mask_mean=0.747 mask<0.5=0.235
+Epoch 07/20 loss=0.13847 cls=0.13847 cons=0.00000 mask_mean=0.751 mask<0.5=0.234
+Epoch 08/20 loss=0.10032 cls=0.10032 cons=0.00000 mask_mean=0.755 mask<0.5=0.231
+Epoch 09/20 loss=0.07731 cls=0.07731 cons=0.00000 mask_mean=0.760 mask<0.5=0.229
+Epoch 10/20 loss=0.06762 cls=0.06762 cons=0.00000 mask_mean=0.760 mask<0.5=0.229
+Epoch 11/20 loss=0.06698 cls=0.06698 cons=0.00000 mask_mean=0.760 mask<0.5=0.231
+Epoch 12/20 loss=0.06470 cls=0.06470 cons=0.00000 mask_mean=0.756 mask<0.5=0.237
+Epoch 13/20 loss=0.05041 cls=0.05041 cons=0.00000 mask_mean=0.762 mask<0.5=0.233
+Epoch 14/20 loss=0.03885 cls=0.03885 cons=0.00000 mask_mean=0.759 mask<0.5=0.238
+Epoch 15/20 loss=0.03643 cls=0.03643 cons=0.00000 mask_mean=0.758 mask<0.5=0.240
+Epoch 16/20 loss=0.03453 cls=0.03453 cons=0.00000 mask_mean=0.757 mask<0.5=0.242
+Epoch 17/20 loss=0.03496 cls=0.03496 cons=0.00000 mask_mean=0.754 mask<0.5=0.246
+Epoch 18/20 loss=0.02908 cls=0.02908 cons=0.00000 mask_mean=0.754 mask<0.5=0.247
+Epoch 19/20 loss=0.03004 cls=0.03004 cons=0.00000 mask_mean=0.755 mask<0.5=0.247
+Epoch 20/20 loss=0.03196 cls=0.03196 cons=0.00000 mask_mean=0.756 mask<0.5=0.248
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 1 accuracy: 0.8343
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=0.89969 cls=0.89969 cons=0.00000 mask_mean=0.581 mask<0.5=0.377
+Epoch 02/20 loss=0.48797 cls=0.48797 cons=0.00000 mask_mean=0.531 mask<0.5=0.497
+Epoch 03/20 loss=0.35761 cls=0.35761 cons=0.00000 mask_mean=0.541 mask<0.5=0.486
+Epoch 04/20 loss=0.28255 cls=0.28255 cons=0.00000 mask_mean=0.553 mask<0.5=0.474
+Epoch 05/20 loss=0.22852 cls=0.22852 cons=0.00000 mask_mean=0.556 mask<0.5=0.471
+Epoch 06/20 loss=0.17685 cls=0.17685 cons=0.00000 mask_mean=0.560 mask<0.5=0.467
+Epoch 07/20 loss=0.13323 cls=0.13323 cons=0.00000 mask_mean=0.570 mask<0.5=0.454
+Epoch 08/20 loss=0.10975 cls=0.10975 cons=0.00000 mask_mean=0.575 mask<0.5=0.448
+Epoch 09/20 loss=0.09845 cls=0.09845 cons=0.00000 mask_mean=0.569 mask<0.5=0.456
+Epoch 10/20 loss=0.06805 cls=0.06805 cons=0.00000 mask_mean=0.575 mask<0.5=0.449
+Epoch 11/20 loss=0.05867 cls=0.05867 cons=0.00000 mask_mean=0.575 mask<0.5=0.449
+Epoch 12/20 loss=0.05625 cls=0.05625 cons=0.00000 mask_mean=0.565 mask<0.5=0.462
+Epoch 13/20 loss=0.04682 cls=0.04682 cons=0.00000 mask_mean=0.560 mask<0.5=0.469
+Epoch 14/20 loss=0.04839 cls=0.04839 cons=0.00000 mask_mean=0.555 mask<0.5=0.474
+Epoch 15/20 loss=0.04983 cls=0.04983 cons=0.00000 mask_mean=0.553 mask<0.5=0.480
+Epoch 16/20 loss=0.04451 cls=0.04451 cons=0.00000 mask_mean=0.541 mask<0.5=0.499
+Epoch 17/20 loss=0.04518 cls=0.04518 cons=0.00000 mask_mean=0.543 mask<0.5=0.495
+Epoch 18/20 loss=0.03617 cls=0.03617 cons=0.00000 mask_mean=0.556 mask<0.5=0.481
+Epoch 19/20 loss=0.02722 cls=0.02722 cons=0.00000 mask_mean=0.550 mask<0.5=0.488
+Epoch 20/20 loss=0.02578 cls=0.02578 cons=0.00000 mask_mean=0.546 mask<0.5=0.492
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 2 accuracy: 0.8343
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=0.84469 cls=0.84469 cons=0.00000 mask_mean=0.656 mask<0.5=0.262
+Epoch 02/20 loss=0.45784 cls=0.45784 cons=0.00000 mask_mean=0.709 mask<0.5=0.222
+Epoch 03/20 loss=0.35180 cls=0.35180 cons=0.00000 mask_mean=0.732 mask<0.5=0.210
+Epoch 04/20 loss=0.27740 cls=0.27740 cons=0.00000 mask_mean=0.750 mask<0.5=0.198
+Epoch 05/20 loss=0.20942 cls=0.20942 cons=0.00000 mask_mean=0.754 mask<0.5=0.201
+Epoch 06/20 loss=0.15605 cls=0.15605 cons=0.00000 mask_mean=0.759 mask<0.5=0.197
+Epoch 07/20 loss=0.12417 cls=0.12417 cons=0.00000 mask_mean=0.768 mask<0.5=0.190
+Epoch 08/20 loss=0.09932 cls=0.09932 cons=0.00000 mask_mean=0.772 mask<0.5=0.190
+Epoch 09/20 loss=0.09050 cls=0.09050 cons=0.00000 mask_mean=0.774 mask<0.5=0.192
+Epoch 10/20 loss=0.07471 cls=0.07471 cons=0.00000 mask_mean=0.773 mask<0.5=0.194
+Epoch 11/20 loss=0.05649 cls=0.05649 cons=0.00000 mask_mean=0.774 mask<0.5=0.195
+Epoch 12/20 loss=0.05186 cls=0.05186 cons=0.00000 mask_mean=0.779 mask<0.5=0.192
+Epoch 13/20 loss=0.05096 cls=0.05096 cons=0.00000 mask_mean=0.778 mask<0.5=0.195
+Epoch 14/20 loss=0.04197 cls=0.04197 cons=0.00000 mask_mean=0.776 mask<0.5=0.199
+Epoch 15/20 loss=0.04202 cls=0.04202 cons=0.00000 mask_mean=0.774 mask<0.5=0.204
+Epoch 16/20 loss=0.03406 cls=0.03406 cons=0.00000 mask_mean=0.777 mask<0.5=0.202
+Epoch 17/20 loss=0.03302 cls=0.03302 cons=0.00000 mask_mean=0.773 mask<0.5=0.207
+Epoch 18/20 loss=0.03072 cls=0.03072 cons=0.00000 mask_mean=0.776 mask<0.5=0.203
+Epoch 19/20 loss=0.01842 cls=0.01842 cons=0.00000 mask_mean=0.777 mask<0.5=0.203
+Epoch 20/20 loss=0.02142 cls=0.02142 cons=0.00000 mask_mean=0.777 mask<0.5=0.205
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 3 accuracy: 0.8088
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=0.96760 cls=0.96760 cons=0.00000 mask_mean=0.735 mask<0.5=0.197
+Epoch 02/20 loss=0.47776 cls=0.47776 cons=0.00000 mask_mean=0.747 mask<0.5=0.222
+Epoch 03/20 loss=0.38549 cls=0.38549 cons=0.00000 mask_mean=0.761 mask<0.5=0.220
+Epoch 04/20 loss=0.29124 cls=0.29124 cons=0.00000 mask_mean=0.769 mask<0.5=0.218
+Epoch 05/20 loss=0.22691 cls=0.22691 cons=0.00000 mask_mean=0.775 mask<0.5=0.217
+Epoch 06/20 loss=0.18396 cls=0.18396 cons=0.00000 mask_mean=0.786 mask<0.5=0.208
+Epoch 07/20 loss=0.13559 cls=0.13559 cons=0.00000 mask_mean=0.791 mask<0.5=0.206
+Epoch 08/20 loss=0.11831 cls=0.11831 cons=0.00000 mask_mean=0.794 mask<0.5=0.204
+Epoch 09/20 loss=0.08916 cls=0.08916 cons=0.00000 mask_mean=0.798 mask<0.5=0.201
+Epoch 10/20 loss=0.09016 cls=0.09016 cons=0.00000 mask_mean=0.797 mask<0.5=0.203
+Epoch 11/20 loss=0.07505 cls=0.07505 cons=0.00000 mask_mean=0.791 mask<0.5=0.209
+Epoch 12/20 loss=0.05983 cls=0.05983 cons=0.00000 mask_mean=0.791 mask<0.5=0.210
+Epoch 13/20 loss=0.05790 cls=0.05790 cons=0.00000 mask_mean=0.793 mask<0.5=0.211
+Epoch 14/20 loss=0.04233 cls=0.04233 cons=0.00000 mask_mean=0.793 mask<0.5=0.210
+Epoch 15/20 loss=0.03613 cls=0.03613 cons=0.00000 mask_mean=0.794 mask<0.5=0.210
+Epoch 16/20 loss=0.03892 cls=0.03892 cons=0.00000 mask_mean=0.791 mask<0.5=0.213
+Epoch 17/20 loss=0.04205 cls=0.04205 cons=0.00000 mask_mean=0.790 mask<0.5=0.213
+Epoch 18/20 loss=0.05190 cls=0.05190 cons=0.00000 mask_mean=0.793 mask<0.5=0.210
+Epoch 19/20 loss=0.03909 cls=0.03909 cons=0.00000 mask_mean=0.791 mask<0.5=0.212
+Epoch 20/20 loss=0.02617 cls=0.02617 cons=0.00000 mask_mean=0.792 mask<0.5=0.211
+Fold 4 accuracy: 0.8439
+
+========== OOF SUMMARY ==========
+Accuracy: 0.828857
+Macro P/R/F1: 0.7110 / 0.6652 / 0.6851
+Saved: results\sc_b0_ce_lambda0_attention_only_seed43_20261004_181823
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Device: cuda
+Model: sc b0
+Image size: 224
+Results: results\sc_b0_ce_lambda0.1_seed43_20261004_184231
+Checkpoints: checkpoints\sc_b0_ce_lambda0.1_seed43_20261004_184231
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=1.10916 cls=1.07141 cons=0.37754 mask_mean=0.530 mask<0.5=0.438
+Epoch 02/20 loss=0.60304 cls=0.59277 cons=0.10264 mask_mean=0.845 mask<0.5=0.011
+Epoch 03/20 loss=0.48474 cls=0.47872 cons=0.06016 mask_mean=0.901 mask<0.5=0.001
+Epoch 04/20 loss=0.40697 cls=0.40290 cons=0.04077 mask_mean=0.926 mask<0.5=0.000
+Epoch 05/20 loss=0.31453 cls=0.31140 cons=0.03137 mask_mean=0.941 mask<0.5=0.000
+Epoch 06/20 loss=0.24966 cls=0.24725 cons=0.02406 mask_mean=0.952 mask<0.5=0.000
+Epoch 07/20 loss=0.20771 cls=0.20583 cons=0.01881 mask_mean=0.957 mask<0.5=0.000
+Epoch 08/20 loss=0.17904 cls=0.17751 cons=0.01528 mask_mean=0.963 mask<0.5=0.000
+Epoch 09/20 loss=0.13808 cls=0.13685 cons=0.01227 mask_mean=0.967 mask<0.5=0.000
+Epoch 10/20 loss=0.11549 cls=0.11452 cons=0.00976 mask_mean=0.968 mask<0.5=0.000
+Epoch 11/20 loss=0.09185 cls=0.09105 cons=0.00794 mask_mean=0.971 mask<0.5=0.000
+Epoch 12/20 loss=0.07810 cls=0.07745 cons=0.00643 mask_mean=0.972 mask<0.5=0.000
+Epoch 13/20 loss=0.07668 cls=0.07610 cons=0.00576 mask_mean=0.974 mask<0.5=0.000
+Epoch 14/20 loss=0.06537 cls=0.06491 cons=0.00464 mask_mean=0.976 mask<0.5=0.000
+Epoch 15/20 loss=0.05917 cls=0.05870 cons=0.00474 mask_mean=0.978 mask<0.5=0.000
+Epoch 16/20 loss=0.06276 cls=0.06237 cons=0.00390 mask_mean=0.978 mask<0.5=0.000
+Epoch 17/20 loss=0.04851 cls=0.04819 cons=0.00319 mask_mean=0.980 mask<0.5=0.000
+Epoch 18/20 loss=0.04092 cls=0.04063 cons=0.00290 mask_mean=0.981 mask<0.5=0.000
+Epoch 19/20 loss=0.04535 cls=0.04504 cons=0.00305 mask_mean=0.981 mask<0.5=0.000
+Epoch 20/20 loss=0.03733 cls=0.03705 cons=0.00280 mask_mean=0.981 mask<0.5=0.000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 0 accuracy: 0.8317
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=1.15538 cls=1.12226 cons=0.33117 mask_mean=0.645 mask<0.5=0.287
+Epoch 02/20 loss=0.63525 cls=0.62631 cons=0.08940 mask_mean=0.889 mask<0.5=0.003
+Epoch 03/20 loss=0.47323 cls=0.46768 cons=0.05555 mask_mean=0.929 mask<0.5=0.000
+Epoch 04/20 loss=0.37692 cls=0.37282 cons=0.04100 mask_mean=0.948 mask<0.5=0.000
+Epoch 05/20 loss=0.31494 cls=0.31190 cons=0.03036 mask_mean=0.957 mask<0.5=0.000
+Epoch 06/20 loss=0.25824 cls=0.25585 cons=0.02388 mask_mean=0.965 mask<0.5=0.000
+Epoch 07/20 loss=0.20588 cls=0.20405 cons=0.01830 mask_mean=0.971 mask<0.5=0.000
+Epoch 08/20 loss=0.15180 cls=0.15037 cons=0.01430 mask_mean=0.974 mask<0.5=0.000
+Epoch 09/20 loss=0.12339 cls=0.12236 cons=0.01035 mask_mean=0.976 mask<0.5=0.000
+Epoch 10/20 loss=0.10268 cls=0.10179 cons=0.00892 mask_mean=0.977 mask<0.5=0.000
+Epoch 11/20 loss=0.08788 cls=0.08713 cons=0.00750 mask_mean=0.978 mask<0.5=0.000
+Epoch 12/20 loss=0.09591 cls=0.09524 cons=0.00675 mask_mean=0.980 mask<0.5=0.000
+Epoch 13/20 loss=0.07162 cls=0.07106 cons=0.00562 mask_mean=0.981 mask<0.5=0.000
+Epoch 14/20 loss=0.06049 cls=0.06007 cons=0.00416 mask_mean=0.981 mask<0.5=0.000
+Epoch 15/20 loss=0.05928 cls=0.05887 cons=0.00406 mask_mean=0.982 mask<0.5=0.000
+Epoch 16/20 loss=0.04875 cls=0.04843 cons=0.00317 mask_mean=0.983 mask<0.5=0.000
+Epoch 17/20 loss=0.05343 cls=0.05310 cons=0.00329 mask_mean=0.984 mask<0.5=0.000
+Epoch 18/20 loss=0.04354 cls=0.04328 cons=0.00259 mask_mean=0.984 mask<0.5=0.000
+Epoch 19/20 loss=0.03892 cls=0.03868 cons=0.00235 mask_mean=0.984 mask<0.5=0.000
+Epoch 20/20 loss=0.04230 cls=0.04208 cons=0.00217 mask_mean=0.985 mask<0.5=0.000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 1 accuracy: 0.8403
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=1.11494 cls=1.08589 cons=0.29050 mask_mean=0.714 mask<0.5=0.159
+Epoch 02/20 loss=0.63218 cls=0.62279 cons=0.09397 mask_mean=0.892 mask<0.5=0.006
+Epoch 03/20 loss=0.48773 cls=0.48193 cons=0.05802 mask_mean=0.922 mask<0.5=0.002
+Epoch 04/20 loss=0.39558 cls=0.39120 cons=0.04385 mask_mean=0.941 mask<0.5=0.001
+Epoch 05/20 loss=0.31782 cls=0.31462 cons=0.03202 mask_mean=0.952 mask<0.5=0.000
+Epoch 06/20 loss=0.26864 cls=0.26615 cons=0.02487 mask_mean=0.960 mask<0.5=0.000
+Epoch 07/20 loss=0.22240 cls=0.22038 cons=0.02021 mask_mean=0.967 mask<0.5=0.000
+Epoch 08/20 loss=0.17720 cls=0.17549 cons=0.01714 mask_mean=0.970 mask<0.5=0.000
+Epoch 09/20 loss=0.14751 cls=0.14626 cons=0.01253 mask_mean=0.973 mask<0.5=0.000
+Epoch 10/20 loss=0.11722 cls=0.11614 cons=0.01075 mask_mean=0.975 mask<0.5=0.000
+Epoch 11/20 loss=0.09715 cls=0.09635 cons=0.00800 mask_mean=0.977 mask<0.5=0.000
+Epoch 12/20 loss=0.08433 cls=0.08365 cons=0.00686 mask_mean=0.978 mask<0.5=0.000
+Epoch 13/20 loss=0.07826 cls=0.07766 cons=0.00602 mask_mean=0.979 mask<0.5=0.000
+Epoch 14/20 loss=0.08333 cls=0.08276 cons=0.00575 mask_mean=0.981 mask<0.5=0.000
+Epoch 15/20 loss=0.06387 cls=0.06346 cons=0.00403 mask_mean=0.981 mask<0.5=0.000
+Epoch 16/20 loss=0.07134 cls=0.07097 cons=0.00370 mask_mean=0.982 mask<0.5=0.000
+Epoch 17/20 loss=0.07486 cls=0.07444 cons=0.00420 mask_mean=0.983 mask<0.5=0.000
+Epoch 18/20 loss=0.05380 cls=0.05348 cons=0.00322 mask_mean=0.983 mask<0.5=0.000
+Epoch 19/20 loss=0.04992 cls=0.04958 cons=0.00341 mask_mean=0.984 mask<0.5=0.000
+Epoch 20/20 loss=0.04562 cls=0.04533 cons=0.00291 mask_mean=0.984 mask<0.5=0.000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 2 accuracy: 0.8328
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=1.13878 cls=1.10674 cons=0.32038 mask_mean=0.656 mask<0.5=0.274
+Epoch 02/20 loss=0.62660 cls=0.61682 cons=0.09787 mask_mean=0.864 mask<0.5=0.039
+Epoch 03/20 loss=0.47758 cls=0.47192 cons=0.05660 mask_mean=0.904 mask<0.5=0.015
+Epoch 04/20 loss=0.40412 cls=0.39980 cons=0.04325 mask_mean=0.923 mask<0.5=0.006
+Epoch 05/20 loss=0.33088 cls=0.32763 cons=0.03244 mask_mean=0.936 mask<0.5=0.002
+Epoch 06/20 loss=0.25212 cls=0.24976 cons=0.02361 mask_mean=0.945 mask<0.5=0.001
+Epoch 07/20 loss=0.19663 cls=0.19474 cons=0.01897 mask_mean=0.953 mask<0.5=0.000
+Epoch 08/20 loss=0.16578 cls=0.16420 cons=0.01578 mask_mean=0.958 mask<0.5=0.000
+Epoch 09/20 loss=0.16017 cls=0.15883 cons=0.01334 mask_mean=0.962 mask<0.5=0.000
+Epoch 10/20 loss=0.11779 cls=0.11683 cons=0.00964 mask_mean=0.965 mask<0.5=0.000
+Epoch 11/20 loss=0.08973 cls=0.08893 cons=0.00800 mask_mean=0.967 mask<0.5=0.000
+Epoch 12/20 loss=0.07212 cls=0.07143 cons=0.00684 mask_mean=0.970 mask<0.5=0.000
+Epoch 13/20 loss=0.06979 cls=0.06918 cons=0.00607 mask_mean=0.972 mask<0.5=0.000
+Epoch 14/20 loss=0.06279 cls=0.06226 cons=0.00533 mask_mean=0.974 mask<0.5=0.000
+Epoch 15/20 loss=0.05271 cls=0.05233 cons=0.00383 mask_mean=0.975 mask<0.5=0.000
+Epoch 16/20 loss=0.04378 cls=0.04339 cons=0.00389 mask_mean=0.976 mask<0.5=0.000
+Epoch 17/20 loss=0.05946 cls=0.05910 cons=0.00357 mask_mean=0.977 mask<0.5=0.000
+Epoch 18/20 loss=0.03740 cls=0.03712 cons=0.00282 mask_mean=0.979 mask<0.5=0.000
+Epoch 19/20 loss=0.04099 cls=0.04069 cons=0.00297 mask_mean=0.978 mask<0.5=0.000
+Epoch 20/20 loss=0.04014 cls=0.03993 cons=0.00217 mask_mean=0.980 mask<0.5=0.000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 3 accuracy: 0.8098
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=1.11294 cls=1.08449 cons=0.28450 mask_mean=0.774 mask<0.5=0.123
+Epoch 02/20 loss=0.60900 cls=0.59941 cons=0.09587 mask_mean=0.904 mask<0.5=0.010
+Epoch 03/20 loss=0.47918 cls=0.47340 cons=0.05780 mask_mean=0.935 mask<0.5=0.002
+Epoch 04/20 loss=0.37883 cls=0.37449 cons=0.04341 mask_mean=0.950 mask<0.5=0.001
+Epoch 05/20 loss=0.33216 cls=0.32887 cons=0.03290 mask_mean=0.961 mask<0.5=0.000
+Epoch 06/20 loss=0.25741 cls=0.25488 cons=0.02532 mask_mean=0.967 mask<0.5=0.000
+Epoch 07/20 loss=0.19769 cls=0.19583 cons=0.01865 mask_mean=0.972 mask<0.5=0.000
+Epoch 08/20 loss=0.16319 cls=0.16169 cons=0.01493 mask_mean=0.975 mask<0.5=0.000
+Epoch 09/20 loss=0.13328 cls=0.13206 cons=0.01223 mask_mean=0.977 mask<0.5=0.000
+Epoch 10/20 loss=0.15303 cls=0.15189 cons=0.01142 mask_mean=0.979 mask<0.5=0.000
+Epoch 11/20 loss=0.09893 cls=0.09804 cons=0.00891 mask_mean=0.981 mask<0.5=0.000
+Epoch 12/20 loss=0.08509 cls=0.08435 cons=0.00731 mask_mean=0.982 mask<0.5=0.000
+Epoch 13/20 loss=0.08036 cls=0.07975 cons=0.00612 mask_mean=0.983 mask<0.5=0.000
+Epoch 14/20 loss=0.06652 cls=0.06598 cons=0.00539 mask_mean=0.984 mask<0.5=0.000
+Epoch 15/20 loss=0.05542 cls=0.05498 cons=0.00439 mask_mean=0.984 mask<0.5=0.000
+Epoch 16/20 loss=0.06465 cls=0.06428 cons=0.00366 mask_mean=0.985 mask<0.5=0.000
+Epoch 17/20 loss=0.07465 cls=0.07427 cons=0.00377 mask_mean=0.984 mask<0.5=0.000
+Epoch 18/20 loss=0.06110 cls=0.06072 cons=0.00380 mask_mean=0.985 mask<0.5=0.000
+Epoch 19/20 loss=0.04004 cls=0.03980 cons=0.00242 mask_mean=0.986 mask<0.5=0.000
+Epoch 20/20 loss=0.05029 cls=0.04999 cons=0.00296 mask_mean=0.986 mask<0.5=0.000
+Fold 4 accuracy: 0.8293
+
+========== OOF SUMMARY ==========
+Accuracy: 0.828757
+Macro P/R/F1: 0.7075 / 0.6786 / 0.6908
+Saved: results\sc_b0_ce_lambda0.1_seed43_20261004_184231
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Device: cuda
+Model: baseline b0
+Image size: 224
+Results: results\baseline_b0_ce_seed44_20261004_190657
+Checkpoints: checkpoints\baseline_b0_ce_seed44_20261004_190657
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=1.11143 cls=1.11143 cons=0.00000
+Epoch 02/20 loss=0.52396 cls=0.52396 cons=0.00000
+Epoch 03/20 loss=0.40438 cls=0.40438 cons=0.00000
+Epoch 04/20 loss=0.33254 cls=0.33254 cons=0.00000
+Epoch 05/20 loss=0.25902 cls=0.25902 cons=0.00000
+Epoch 06/20 loss=0.19211 cls=0.19211 cons=0.00000
+Epoch 07/20 loss=0.15057 cls=0.15057 cons=0.00000
+Epoch 08/20 loss=0.12755 cls=0.12755 cons=0.00000
+Epoch 09/20 loss=0.10894 cls=0.10894 cons=0.00000
+Epoch 10/20 loss=0.08544 cls=0.08544 cons=0.00000
+Epoch 11/20 loss=0.07682 cls=0.07682 cons=0.00000
+Epoch 12/20 loss=0.06508 cls=0.06508 cons=0.00000
+Epoch 13/20 loss=0.07044 cls=0.07044 cons=0.00000
+Epoch 14/20 loss=0.05826 cls=0.05826 cons=0.00000
+Epoch 15/20 loss=0.06292 cls=0.06292 cons=0.00000
+Epoch 16/20 loss=0.04899 cls=0.04899 cons=0.00000
+Epoch 17/20 loss=0.05805 cls=0.05805 cons=0.00000
+Epoch 18/20 loss=0.03817 cls=0.03817 cons=0.00000
+Epoch 19/20 loss=0.03656 cls=0.03656 cons=0.00000
+Epoch 20/20 loss=0.03331 cls=0.03331 cons=0.00000
+Fold 0 accuracy: 0.8232
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=1.11864 cls=1.11864 cons=0.00000
+Epoch 02/20 loss=0.56247 cls=0.56247 cons=0.00000
+Epoch 03/20 loss=0.43002 cls=0.43002 cons=0.00000
+Epoch 04/20 loss=0.32816 cls=0.32816 cons=0.00000
+Epoch 05/20 loss=0.25661 cls=0.25661 cons=0.00000
+Epoch 06/20 loss=0.20061 cls=0.20061 cons=0.00000
+Epoch 07/20 loss=0.16095 cls=0.16095 cons=0.00000
+Epoch 08/20 loss=0.12440 cls=0.12440 cons=0.00000
+Epoch 09/20 loss=0.10257 cls=0.10257 cons=0.00000
+Epoch 10/20 loss=0.08286 cls=0.08286 cons=0.00000
+Epoch 11/20 loss=0.06629 cls=0.06629 cons=0.00000
+Epoch 12/20 loss=0.06128 cls=0.06128 cons=0.00000
+Epoch 13/20 loss=0.05398 cls=0.05398 cons=0.00000
+Epoch 14/20 loss=0.04872 cls=0.04872 cons=0.00000
+Epoch 15/20 loss=0.05226 cls=0.05226 cons=0.00000
+Epoch 16/20 loss=0.04896 cls=0.04896 cons=0.00000
+Epoch 17/20 loss=0.03481 cls=0.03481 cons=0.00000
+Epoch 18/20 loss=0.03923 cls=0.03923 cons=0.00000
+Epoch 19/20 loss=0.03766 cls=0.03766 cons=0.00000
+Epoch 20/20 loss=0.02966 cls=0.02966 cons=0.00000
+Fold 1 accuracy: 0.8353
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=1.11359 cls=1.11359 cons=0.00000
+Epoch 02/20 loss=0.55204 cls=0.55204 cons=0.00000
+Epoch 03/20 loss=0.41437 cls=0.41437 cons=0.00000
+Epoch 04/20 loss=0.32773 cls=0.32773 cons=0.00000
+Epoch 05/20 loss=0.26112 cls=0.26112 cons=0.00000
+Epoch 06/20 loss=0.19980 cls=0.19980 cons=0.00000
+Epoch 07/20 loss=0.16795 cls=0.16795 cons=0.00000
+Epoch 08/20 loss=0.14025 cls=0.14025 cons=0.00000
+Epoch 09/20 loss=0.10435 cls=0.10435 cons=0.00000
+Epoch 10/20 loss=0.10593 cls=0.10593 cons=0.00000
+Epoch 11/20 loss=0.06969 cls=0.06969 cons=0.00000
+Epoch 12/20 loss=0.06458 cls=0.06458 cons=0.00000
+Epoch 13/20 loss=0.06591 cls=0.06591 cons=0.00000
+Epoch 14/20 loss=0.06463 cls=0.06463 cons=0.00000
+Epoch 15/20 loss=0.04829 cls=0.04829 cons=0.00000
+Epoch 16/20 loss=0.03618 cls=0.03618 cons=0.00000
+Epoch 17/20 loss=0.04377 cls=0.04377 cons=0.00000
+Epoch 18/20 loss=0.03426 cls=0.03426 cons=0.00000
+Epoch 19/20 loss=0.03136 cls=0.03136 cons=0.00000
+Epoch 20/20 loss=0.04082 cls=0.04082 cons=0.00000
+Fold 2 accuracy: 0.8353
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=1.13008 cls=1.13008 cons=0.00000
+Epoch 02/20 loss=0.53165 cls=0.53165 cons=0.00000
+Epoch 03/20 loss=0.39778 cls=0.39778 cons=0.00000
+Epoch 04/20 loss=0.32753 cls=0.32753 cons=0.00000
+Epoch 05/20 loss=0.26396 cls=0.26396 cons=0.00000
+Epoch 06/20 loss=0.20901 cls=0.20901 cons=0.00000
+Epoch 07/20 loss=0.16123 cls=0.16123 cons=0.00000
+Epoch 08/20 loss=0.12434 cls=0.12434 cons=0.00000
+Epoch 09/20 loss=0.10264 cls=0.10264 cons=0.00000
+Epoch 10/20 loss=0.09041 cls=0.09041 cons=0.00000
+Epoch 11/20 loss=0.08211 cls=0.08211 cons=0.00000
+Epoch 12/20 loss=0.06290 cls=0.06290 cons=0.00000
+Epoch 13/20 loss=0.06099 cls=0.06099 cons=0.00000
+Epoch 14/20 loss=0.05251 cls=0.05251 cons=0.00000
+Epoch 15/20 loss=0.06426 cls=0.06426 cons=0.00000
+Epoch 16/20 loss=0.06432 cls=0.06432 cons=0.00000
+Epoch 17/20 loss=0.04878 cls=0.04878 cons=0.00000
+Epoch 18/20 loss=0.03420 cls=0.03420 cons=0.00000
+Epoch 19/20 loss=0.04168 cls=0.04168 cons=0.00000
+Epoch 20/20 loss=0.03665 cls=0.03665 cons=0.00000
+Fold 3 accuracy: 0.8009
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=1.08415 cls=1.08415 cons=0.00000
+Epoch 02/20 loss=0.56640 cls=0.56640 cons=0.00000
+Epoch 03/20 loss=0.42151 cls=0.42151 cons=0.00000
+Epoch 04/20 loss=0.32484 cls=0.32484 cons=0.00000
+Epoch 05/20 loss=0.24973 cls=0.24973 cons=0.00000
+Epoch 06/20 loss=0.20962 cls=0.20962 cons=0.00000
+Epoch 07/20 loss=0.16458 cls=0.16458 cons=0.00000
+Epoch 08/20 loss=0.13388 cls=0.13388 cons=0.00000
+Epoch 09/20 loss=0.10764 cls=0.10764 cons=0.00000
+Epoch 10/20 loss=0.08126 cls=0.08126 cons=0.00000
+Epoch 11/20 loss=0.07311 cls=0.07311 cons=0.00000
+Epoch 12/20 loss=0.06690 cls=0.06690 cons=0.00000
+Epoch 13/20 loss=0.07016 cls=0.07016 cons=0.00000
+Epoch 14/20 loss=0.05465 cls=0.05465 cons=0.00000
+Epoch 15/20 loss=0.05775 cls=0.05775 cons=0.00000
+Epoch 16/20 loss=0.05406 cls=0.05406 cons=0.00000
+Epoch 17/20 loss=0.03351 cls=0.03351 cons=0.00000
+Epoch 18/20 loss=0.03660 cls=0.03660 cons=0.00000
+Epoch 19/20 loss=0.04012 cls=0.04012 cons=0.00000
+Epoch 20/20 loss=0.05671 cls=0.05671 cons=0.00000
+Fold 4 accuracy: 0.8217
+
+========== OOF SUMMARY ==========
+Accuracy: 0.823265
+Macro P/R/F1: 0.7157 / 0.6406 / 0.6686
+Saved: results\baseline_b0_ce_seed44_20261004_190657
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Device: cuda
+Model: sc b0
+Image size: 224
+Results: results\sc_b0_ce_lambda0_attention_only_seed44_20261004_193145
+Checkpoints: checkpoints\sc_b0_ce_lambda0_attention_only_seed44_20261004_193145
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=0.83548 cls=0.83548 cons=0.00000 mask_mean=0.570 mask<0.5=0.416
+Epoch 02/20 loss=0.46506 cls=0.46506 cons=0.00000 mask_mean=0.622 mask<0.5=0.371
+Epoch 03/20 loss=0.36290 cls=0.36290 cons=0.00000 mask_mean=0.649 mask<0.5=0.345
+Epoch 04/20 loss=0.27497 cls=0.27497 cons=0.00000 mask_mean=0.669 mask<0.5=0.328
+Epoch 05/20 loss=0.22151 cls=0.22151 cons=0.00000 mask_mean=0.683 mask<0.5=0.316
+Epoch 06/20 loss=0.16798 cls=0.16798 cons=0.00000 mask_mean=0.686 mask<0.5=0.315
+Epoch 07/20 loss=0.12889 cls=0.12889 cons=0.00000 mask_mean=0.692 mask<0.5=0.311
+Epoch 08/20 loss=0.11004 cls=0.11004 cons=0.00000 mask_mean=0.693 mask<0.5=0.310
+Epoch 09/20 loss=0.08736 cls=0.08736 cons=0.00000 mask_mean=0.692 mask<0.5=0.311
+Epoch 10/20 loss=0.07254 cls=0.07254 cons=0.00000 mask_mean=0.693 mask<0.5=0.311
+Epoch 11/20 loss=0.05943 cls=0.05943 cons=0.00000 mask_mean=0.701 mask<0.5=0.305
+Epoch 12/20 loss=0.04908 cls=0.04908 cons=0.00000 mask_mean=0.702 mask<0.5=0.304
+Epoch 13/20 loss=0.05653 cls=0.05653 cons=0.00000 mask_mean=0.713 mask<0.5=0.297
+Epoch 14/20 loss=0.04682 cls=0.04682 cons=0.00000 mask_mean=0.713 mask<0.5=0.296
+Epoch 15/20 loss=0.04472 cls=0.04472 cons=0.00000 mask_mean=0.718 mask<0.5=0.293
+Epoch 16/20 loss=0.04270 cls=0.04270 cons=0.00000 mask_mean=0.713 mask<0.5=0.297
+Epoch 17/20 loss=0.03981 cls=0.03981 cons=0.00000 mask_mean=0.718 mask<0.5=0.293
+Epoch 18/20 loss=0.03065 cls=0.03065 cons=0.00000 mask_mean=0.704 mask<0.5=0.305
+Epoch 19/20 loss=0.03558 cls=0.03558 cons=0.00000 mask_mean=0.706 mask<0.5=0.303
+Epoch 20/20 loss=0.02900 cls=0.02900 cons=0.00000 mask_mean=0.704 mask<0.5=0.303
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 0 accuracy: 0.8342
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=0.83096 cls=0.83096 cons=0.00000 mask_mean=0.592 mask<0.5=0.410
+Epoch 02/20 loss=0.47453 cls=0.47453 cons=0.00000 mask_mean=0.591 mask<0.5=0.425
+Epoch 03/20 loss=0.36278 cls=0.36278 cons=0.00000 mask_mean=0.614 mask<0.5=0.395
+Epoch 04/20 loss=0.27508 cls=0.27508 cons=0.00000 mask_mean=0.629 mask<0.5=0.374
+Epoch 05/20 loss=0.20309 cls=0.20309 cons=0.00000 mask_mean=0.643 mask<0.5=0.353
+Epoch 06/20 loss=0.16307 cls=0.16307 cons=0.00000 mask_mean=0.644 mask<0.5=0.352
+Epoch 07/20 loss=0.12372 cls=0.12372 cons=0.00000 mask_mean=0.654 mask<0.5=0.340
+Epoch 08/20 loss=0.09051 cls=0.09051 cons=0.00000 mask_mean=0.656 mask<0.5=0.337
+Epoch 09/20 loss=0.07505 cls=0.07505 cons=0.00000 mask_mean=0.656 mask<0.5=0.337
+Epoch 10/20 loss=0.07089 cls=0.07089 cons=0.00000 mask_mean=0.646 mask<0.5=0.350
+Epoch 11/20 loss=0.05038 cls=0.05038 cons=0.00000 mask_mean=0.645 mask<0.5=0.352
+Epoch 12/20 loss=0.05173 cls=0.05173 cons=0.00000 mask_mean=0.646 mask<0.5=0.352
+Epoch 13/20 loss=0.04687 cls=0.04687 cons=0.00000 mask_mean=0.640 mask<0.5=0.358
+Epoch 14/20 loss=0.04813 cls=0.04813 cons=0.00000 mask_mean=0.636 mask<0.5=0.363
+Epoch 15/20 loss=0.04165 cls=0.04165 cons=0.00000 mask_mean=0.632 mask<0.5=0.370
+Epoch 16/20 loss=0.03891 cls=0.03891 cons=0.00000 mask_mean=0.627 mask<0.5=0.376
+Epoch 17/20 loss=0.02149 cls=0.02149 cons=0.00000 mask_mean=0.629 mask<0.5=0.373
+Epoch 18/20 loss=0.02877 cls=0.02877 cons=0.00000 mask_mean=0.629 mask<0.5=0.374
+Epoch 19/20 loss=0.03184 cls=0.03184 cons=0.00000 mask_mean=0.628 mask<0.5=0.376
+Epoch 20/20 loss=0.03064 cls=0.03064 cons=0.00000 mask_mean=0.627 mask<0.5=0.376
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 1 accuracy: 0.8272
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=0.81090 cls=0.81090 cons=0.00000 mask_mean=0.506 mask<0.5=0.498
+Epoch 02/20 loss=0.46974 cls=0.46974 cons=0.00000 mask_mean=0.611 mask<0.5=0.379
+Epoch 03/20 loss=0.35018 cls=0.35018 cons=0.00000 mask_mean=0.650 mask<0.5=0.346
+Epoch 04/20 loss=0.27333 cls=0.27333 cons=0.00000 mask_mean=0.671 mask<0.5=0.326
+Epoch 05/20 loss=0.21126 cls=0.21126 cons=0.00000 mask_mean=0.684 mask<0.5=0.315
+Epoch 06/20 loss=0.15200 cls=0.15200 cons=0.00000 mask_mean=0.686 mask<0.5=0.315
+Epoch 07/20 loss=0.13050 cls=0.13050 cons=0.00000 mask_mean=0.694 mask<0.5=0.308
+Epoch 08/20 loss=0.10590 cls=0.10590 cons=0.00000 mask_mean=0.707 mask<0.5=0.294
+Epoch 09/20 loss=0.08170 cls=0.08170 cons=0.00000 mask_mean=0.705 mask<0.5=0.297
+Epoch 10/20 loss=0.07317 cls=0.07317 cons=0.00000 mask_mean=0.710 mask<0.5=0.292
+Epoch 11/20 loss=0.05747 cls=0.05747 cons=0.00000 mask_mean=0.710 mask<0.5=0.293
+Epoch 12/20 loss=0.05522 cls=0.05522 cons=0.00000 mask_mean=0.705 mask<0.5=0.301
+Epoch 13/20 loss=0.05674 cls=0.05674 cons=0.00000 mask_mean=0.711 mask<0.5=0.294
+Epoch 14/20 loss=0.04623 cls=0.04623 cons=0.00000 mask_mean=0.709 mask<0.5=0.297
+Epoch 15/20 loss=0.03352 cls=0.03352 cons=0.00000 mask_mean=0.702 mask<0.5=0.306
+Epoch 16/20 loss=0.03048 cls=0.03048 cons=0.00000 mask_mean=0.704 mask<0.5=0.304
+Epoch 17/20 loss=0.03657 cls=0.03657 cons=0.00000 mask_mean=0.704 mask<0.5=0.304
+Epoch 18/20 loss=0.04165 cls=0.04165 cons=0.00000 mask_mean=0.704 mask<0.5=0.303
+Epoch 19/20 loss=0.02879 cls=0.02879 cons=0.00000 mask_mean=0.692 mask<0.5=0.318
+Epoch 20/20 loss=0.03814 cls=0.03814 cons=0.00000 mask_mean=0.696 mask<0.5=0.313
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 2 accuracy: 0.8378
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=0.80844 cls=0.80844 cons=0.00000 mask_mean=0.535 mask<0.5=0.463
+Epoch 02/20 loss=0.46345 cls=0.46345 cons=0.00000 mask_mean=0.596 mask<0.5=0.413
+Epoch 03/20 loss=0.35152 cls=0.35152 cons=0.00000 mask_mean=0.622 mask<0.5=0.395
+Epoch 04/20 loss=0.28167 cls=0.28167 cons=0.00000 mask_mean=0.640 mask<0.5=0.377
+Epoch 05/20 loss=0.21353 cls=0.21353 cons=0.00000 mask_mean=0.655 mask<0.5=0.356
+Epoch 06/20 loss=0.16573 cls=0.16573 cons=0.00000 mask_mean=0.674 mask<0.5=0.330
+Epoch 07/20 loss=0.12580 cls=0.12580 cons=0.00000 mask_mean=0.673 mask<0.5=0.333
+Epoch 08/20 loss=0.09990 cls=0.09990 cons=0.00000 mask_mean=0.676 mask<0.5=0.329
+Epoch 09/20 loss=0.08823 cls=0.08823 cons=0.00000 mask_mean=0.679 mask<0.5=0.327
+Epoch 10/20 loss=0.07304 cls=0.07304 cons=0.00000 mask_mean=0.676 mask<0.5=0.333
+Epoch 11/20 loss=0.06932 cls=0.06932 cons=0.00000 mask_mean=0.685 mask<0.5=0.322
+Epoch 12/20 loss=0.04791 cls=0.04791 cons=0.00000 mask_mean=0.683 mask<0.5=0.324
+Epoch 13/20 loss=0.04725 cls=0.04725 cons=0.00000 mask_mean=0.683 mask<0.5=0.325
+Epoch 14/20 loss=0.04560 cls=0.04560 cons=0.00000 mask_mean=0.684 mask<0.5=0.325
+Epoch 15/20 loss=0.04810 cls=0.04810 cons=0.00000 mask_mean=0.689 mask<0.5=0.318
+Epoch 16/20 loss=0.04572 cls=0.04572 cons=0.00000 mask_mean=0.693 mask<0.5=0.315
+Epoch 17/20 loss=0.03576 cls=0.03576 cons=0.00000 mask_mean=0.689 mask<0.5=0.322
+Epoch 18/20 loss=0.02899 cls=0.02899 cons=0.00000 mask_mean=0.682 mask<0.5=0.333
+Epoch 19/20 loss=0.02317 cls=0.02317 cons=0.00000 mask_mean=0.681 mask<0.5=0.334
+Epoch 20/20 loss=0.03336 cls=0.03336 cons=0.00000 mask_mean=0.681 mask<0.5=0.336
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 3 accuracy: 0.8188
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=0.85699 cls=0.85699 cons=0.00000 mask_mean=0.284 mask<0.5=0.822
+Epoch 02/20 loss=0.53038 cls=0.53038 cons=0.00000 mask_mean=0.416 mask<0.5=0.690
+Epoch 03/20 loss=0.40684 cls=0.40684 cons=0.00000 mask_mean=0.477 mask<0.5=0.601
+Epoch 04/20 loss=0.31494 cls=0.31494 cons=0.00000 mask_mean=0.512 mask<0.5=0.544
+Epoch 05/20 loss=0.23865 cls=0.23865 cons=0.00000 mask_mean=0.538 mask<0.5=0.501
+Epoch 06/20 loss=0.20305 cls=0.20305 cons=0.00000 mask_mean=0.553 mask<0.5=0.481
+Epoch 07/20 loss=0.16483 cls=0.16483 cons=0.00000 mask_mean=0.561 mask<0.5=0.473
+Epoch 08/20 loss=0.12985 cls=0.12985 cons=0.00000 mask_mean=0.570 mask<0.5=0.457
+Epoch 09/20 loss=0.11851 cls=0.11851 cons=0.00000 mask_mean=0.569 mask<0.5=0.463
+Epoch 10/20 loss=0.08566 cls=0.08566 cons=0.00000 mask_mean=0.567 mask<0.5=0.466
+Epoch 11/20 loss=0.08170 cls=0.08170 cons=0.00000 mask_mean=0.576 mask<0.5=0.456
+Epoch 12/20 loss=0.07129 cls=0.07129 cons=0.00000 mask_mean=0.575 mask<0.5=0.461
+Epoch 13/20 loss=0.07112 cls=0.07112 cons=0.00000 mask_mean=0.578 mask<0.5=0.457
+Epoch 14/20 loss=0.05585 cls=0.05585 cons=0.00000 mask_mean=0.578 mask<0.5=0.457
+Epoch 15/20 loss=0.05257 cls=0.05257 cons=0.00000 mask_mean=0.568 mask<0.5=0.476
+Epoch 16/20 loss=0.05283 cls=0.05283 cons=0.00000 mask_mean=0.570 mask<0.5=0.472
+Epoch 17/20 loss=0.03544 cls=0.03544 cons=0.00000 mask_mean=0.575 mask<0.5=0.465
+Epoch 18/20 loss=0.04647 cls=0.04647 cons=0.00000 mask_mean=0.584 mask<0.5=0.451
+Epoch 19/20 loss=0.04613 cls=0.04613 cons=0.00000 mask_mean=0.574 mask<0.5=0.468
+Epoch 20/20 loss=0.04953 cls=0.04953 cons=0.00000 mask_mean=0.602 mask<0.5=0.419
+Fold 4 accuracy: 0.8465
+
+========== OOF SUMMARY ==========
+Accuracy: 0.832851
+Macro P/R/F1: 0.7230 / 0.6664 / 0.6907
+Saved: results\sc_b0_ce_lambda0_attention_only_seed44_20261004_193145
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Device: cuda
+Model: sc b0
+Image size: 224
+Results: results\sc_b0_ce_lambda0.1_seed44_20261004_195647
+Checkpoints: checkpoints\sc_b0_ce_lambda0.1_seed44_20261004_195647
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=1.14101 cls=1.10639 cons=0.34619 mask_mean=0.639 mask<0.5=0.301
+Epoch 02/20 loss=0.61650 cls=0.60676 cons=0.09736 mask_mean=0.857 mask<0.5=0.051
+Epoch 03/20 loss=0.48830 cls=0.48244 cons=0.05858 mask_mean=0.912 mask<0.5=0.018
+Epoch 04/20 loss=0.37232 cls=0.36846 cons=0.03860 mask_mean=0.937 mask<0.5=0.007
+Epoch 05/20 loss=0.30629 cls=0.30323 cons=0.03063 mask_mean=0.949 mask<0.5=0.003
+Epoch 06/20 loss=0.24531 cls=0.24297 cons=0.02335 mask_mean=0.958 mask<0.5=0.001
+Epoch 07/20 loss=0.20424 cls=0.20242 cons=0.01819 mask_mean=0.964 mask<0.5=0.000
+Epoch 08/20 loss=0.17037 cls=0.16892 cons=0.01450 mask_mean=0.969 mask<0.5=0.000
+Epoch 09/20 loss=0.13673 cls=0.13567 cons=0.01059 mask_mean=0.973 mask<0.5=0.000
+Epoch 10/20 loss=0.09695 cls=0.09610 cons=0.00850 mask_mean=0.976 mask<0.5=0.000
+Epoch 11/20 loss=0.09221 cls=0.09148 cons=0.00736 mask_mean=0.977 mask<0.5=0.000
+Epoch 12/20 loss=0.07777 cls=0.07713 cons=0.00642 mask_mean=0.978 mask<0.5=0.000
+Epoch 13/20 loss=0.06289 cls=0.06234 cons=0.00543 mask_mean=0.980 mask<0.5=0.000
+Epoch 14/20 loss=0.10689 cls=0.10641 cons=0.00480 mask_mean=0.981 mask<0.5=0.000
+Epoch 15/20 loss=0.06154 cls=0.06111 cons=0.00439 mask_mean=0.981 mask<0.5=0.000
+Epoch 16/20 loss=0.04296 cls=0.04265 cons=0.00309 mask_mean=0.982 mask<0.5=0.000
+Epoch 17/20 loss=0.04274 cls=0.04240 cons=0.00347 mask_mean=0.983 mask<0.5=0.000
+Epoch 18/20 loss=0.04127 cls=0.04101 cons=0.00259 mask_mean=0.984 mask<0.5=0.000
+Epoch 19/20 loss=0.04839 cls=0.04807 cons=0.00325 mask_mean=0.985 mask<0.5=0.000
+Epoch 20/20 loss=0.04697 cls=0.04668 cons=0.00289 mask_mean=0.985 mask<0.5=0.000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 0 accuracy: 0.8247
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=1.14457 cls=1.11644 cons=0.28137 mask_mean=0.690 mask<0.5=0.247
+Epoch 02/20 loss=0.63010 cls=0.62092 cons=0.09189 mask_mean=0.860 mask<0.5=0.053
+Epoch 03/20 loss=0.48518 cls=0.47921 cons=0.05964 mask_mean=0.902 mask<0.5=0.029
+Epoch 04/20 loss=0.38872 cls=0.38445 cons=0.04274 mask_mean=0.923 mask<0.5=0.018
+Epoch 05/20 loss=0.28322 cls=0.28007 cons=0.03152 mask_mean=0.939 mask<0.5=0.010
+Epoch 06/20 loss=0.24106 cls=0.23858 cons=0.02479 mask_mean=0.949 mask<0.5=0.006
+Epoch 07/20 loss=0.21352 cls=0.21147 cons=0.02048 mask_mean=0.957 mask<0.5=0.004
+Epoch 08/20 loss=0.14707 cls=0.14565 cons=0.01413 mask_mean=0.962 mask<0.5=0.002
+Epoch 09/20 loss=0.11661 cls=0.11546 cons=0.01153 mask_mean=0.967 mask<0.5=0.001
+Epoch 10/20 loss=0.10290 cls=0.10191 cons=0.00993 mask_mean=0.970 mask<0.5=0.001
+Epoch 11/20 loss=0.09639 cls=0.09567 cons=0.00720 mask_mean=0.972 mask<0.5=0.001
+Epoch 12/20 loss=0.08842 cls=0.08769 cons=0.00727 mask_mean=0.975 mask<0.5=0.001
+Epoch 13/20 loss=0.07950 cls=0.07897 cons=0.00532 mask_mean=0.976 mask<0.5=0.000
+Epoch 14/20 loss=0.06018 cls=0.05970 cons=0.00483 mask_mean=0.978 mask<0.5=0.000
+Epoch 15/20 loss=0.06503 cls=0.06465 cons=0.00381 mask_mean=0.979 mask<0.5=0.000
+Epoch 16/20 loss=0.05349 cls=0.05308 cons=0.00412 mask_mean=0.979 mask<0.5=0.000
+Epoch 17/20 loss=0.03383 cls=0.03355 cons=0.00273 mask_mean=0.980 mask<0.5=0.000
+Epoch 18/20 loss=0.03410 cls=0.03385 cons=0.00252 mask_mean=0.981 mask<0.5=0.000
+Epoch 19/20 loss=0.04276 cls=0.04247 cons=0.00292 mask_mean=0.982 mask<0.5=0.000
+Epoch 20/20 loss=0.03871 cls=0.03839 cons=0.00321 mask_mean=0.983 mask<0.5=0.000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 1 accuracy: 0.8137
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=1.12038 cls=1.09242 cons=0.27961 mask_mean=0.618 mask<0.5=0.334
+Epoch 02/20 loss=0.63255 cls=0.62292 cons=0.09634 mask_mean=0.847 mask<0.5=0.056
+Epoch 03/20 loss=0.48474 cls=0.47876 cons=0.05978 mask_mean=0.898 mask<0.5=0.018
+Epoch 04/20 loss=0.37886 cls=0.37470 cons=0.04156 mask_mean=0.928 mask<0.5=0.004
+Epoch 05/20 loss=0.30737 cls=0.30435 cons=0.03017 mask_mean=0.945 mask<0.5=0.001
+Epoch 06/20 loss=0.24610 cls=0.24379 cons=0.02305 mask_mean=0.954 mask<0.5=0.000
+Epoch 07/20 loss=0.20724 cls=0.20545 cons=0.01796 mask_mean=0.962 mask<0.5=0.000
+Epoch 08/20 loss=0.17261 cls=0.17115 cons=0.01460 mask_mean=0.967 mask<0.5=0.000
+Epoch 09/20 loss=0.13162 cls=0.13054 cons=0.01075 mask_mean=0.971 mask<0.5=0.000
+Epoch 10/20 loss=0.11720 cls=0.11628 cons=0.00921 mask_mean=0.973 mask<0.5=0.000
+Epoch 11/20 loss=0.09106 cls=0.09024 cons=0.00823 mask_mean=0.975 mask<0.5=0.000
+Epoch 12/20 loss=0.08891 cls=0.08828 cons=0.00627 mask_mean=0.976 mask<0.5=0.000
+Epoch 13/20 loss=0.09157 cls=0.09096 cons=0.00605 mask_mean=0.979 mask<0.5=0.000
+Epoch 14/20 loss=0.08966 cls=0.08912 cons=0.00534 mask_mean=0.979 mask<0.5=0.000
+Epoch 15/20 loss=0.05712 cls=0.05673 cons=0.00393 mask_mean=0.980 mask<0.5=0.000
+Epoch 16/20 loss=0.04279 cls=0.04248 cons=0.00304 mask_mean=0.980 mask<0.5=0.000
+Epoch 17/20 loss=0.06889 cls=0.06857 cons=0.00319 mask_mean=0.981 mask<0.5=0.000
+Epoch 18/20 loss=0.06374 cls=0.06341 cons=0.00331 mask_mean=0.982 mask<0.5=0.000
+Epoch 19/20 loss=0.04876 cls=0.04849 cons=0.00269 mask_mean=0.983 mask<0.5=0.000
+Epoch 20/20 loss=0.05940 cls=0.05913 cons=0.00266 mask_mean=0.984 mask<0.5=0.000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 2 accuracy: 0.8378
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=1.12114 cls=1.08992 cons=0.31220 mask_mean=0.625 mask<0.5=0.336
+Epoch 02/20 loss=0.60689 cls=0.59690 cons=0.09995 mask_mean=0.832 mask<0.5=0.115
+Epoch 03/20 loss=0.47653 cls=0.47018 cons=0.06348 mask_mean=0.882 mask<0.5=0.074
+Epoch 04/20 loss=0.39896 cls=0.39457 cons=0.04393 mask_mean=0.913 mask<0.5=0.048
+Epoch 05/20 loss=0.32874 cls=0.32543 cons=0.03309 mask_mean=0.931 mask<0.5=0.033
+Epoch 06/20 loss=0.25597 cls=0.25358 cons=0.02382 mask_mean=0.945 mask<0.5=0.021
+Epoch 07/20 loss=0.20825 cls=0.20619 cons=0.02056 mask_mean=0.953 mask<0.5=0.015
+Epoch 08/20 loss=0.17263 cls=0.17100 cons=0.01628 mask_mean=0.962 mask<0.5=0.008
+Epoch 09/20 loss=0.13544 cls=0.13421 cons=0.01228 mask_mean=0.967 mask<0.5=0.004
+Epoch 10/20 loss=0.09755 cls=0.09665 cons=0.00898 mask_mean=0.971 mask<0.5=0.002
+Epoch 11/20 loss=0.08849 cls=0.08769 cons=0.00808 mask_mean=0.973 mask<0.5=0.001
+Epoch 12/20 loss=0.08654 cls=0.08579 cons=0.00749 mask_mean=0.976 mask<0.5=0.000
+Epoch 13/20 loss=0.06523 cls=0.06470 cons=0.00532 mask_mean=0.977 mask<0.5=0.000
+Epoch 14/20 loss=0.06729 cls=0.06682 cons=0.00465 mask_mean=0.979 mask<0.5=0.000
+Epoch 15/20 loss=0.05742 cls=0.05695 cons=0.00469 mask_mean=0.980 mask<0.5=0.000
+Epoch 16/20 loss=0.07785 cls=0.07734 cons=0.00501 mask_mean=0.981 mask<0.5=0.000
+Epoch 17/20 loss=0.04264 cls=0.04228 cons=0.00361 mask_mean=0.982 mask<0.5=0.000
+Epoch 18/20 loss=0.04361 cls=0.04333 cons=0.00278 mask_mean=0.983 mask<0.5=0.000
+Epoch 19/20 loss=0.04570 cls=0.04539 cons=0.00318 mask_mean=0.983 mask<0.5=0.000
+Epoch 20/20 loss=0.03328 cls=0.03306 cons=0.00220 mask_mean=0.984 mask<0.5=0.000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 3 accuracy: 0.8158
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=1.16530 cls=1.13627 cons=0.29030 mask_mean=0.461 mask<0.5=0.525
+Epoch 02/20 loss=0.64469 cls=0.63586 cons=0.08838 mask_mean=0.814 mask<0.5=0.055
+Epoch 03/20 loss=0.50732 cls=0.50198 cons=0.05340 mask_mean=0.868 mask<0.5=0.021
+Epoch 04/20 loss=0.38757 cls=0.38382 cons=0.03750 mask_mean=0.902 mask<0.5=0.006
+Epoch 05/20 loss=0.30812 cls=0.30536 cons=0.02755 mask_mean=0.922 mask<0.5=0.002
+Epoch 06/20 loss=0.24461 cls=0.24250 cons=0.02108 mask_mean=0.936 mask<0.5=0.001
+Epoch 07/20 loss=0.20624 cls=0.20457 cons=0.01668 mask_mean=0.946 mask<0.5=0.000
+Epoch 08/20 loss=0.18479 cls=0.18348 cons=0.01316 mask_mean=0.953 mask<0.5=0.000
+Epoch 09/20 loss=0.16262 cls=0.16147 cons=0.01151 mask_mean=0.957 mask<0.5=0.000
+Epoch 10/20 loss=0.11042 cls=0.10961 cons=0.00815 mask_mean=0.959 mask<0.5=0.000
+Epoch 11/20 loss=0.11023 cls=0.10942 cons=0.00812 mask_mean=0.963 mask<0.5=0.000
+Epoch 12/20 loss=0.08531 cls=0.08470 cons=0.00611 mask_mean=0.965 mask<0.5=0.000
+Epoch 13/20 loss=0.08147 cls=0.08089 cons=0.00583 mask_mean=0.967 mask<0.5=0.000
+Epoch 14/20 loss=0.06995 cls=0.06948 cons=0.00468 mask_mean=0.967 mask<0.5=0.000
+Epoch 15/20 loss=0.08537 cls=0.08493 cons=0.00437 mask_mean=0.969 mask<0.5=0.000
+Epoch 16/20 loss=0.07245 cls=0.07200 cons=0.00451 mask_mean=0.970 mask<0.5=0.000
+Epoch 17/20 loss=0.04676 cls=0.04642 cons=0.00344 mask_mean=0.972 mask<0.5=0.000
+Epoch 18/20 loss=0.05848 cls=0.05819 cons=0.00287 mask_mean=0.974 mask<0.5=0.000
+Epoch 19/20 loss=0.05278 cls=0.05253 cons=0.00245 mask_mean=0.975 mask<0.5=0.000
+Epoch 20/20 loss=0.05619 cls=0.05592 cons=0.00265 mask_mean=0.976 mask<0.5=0.000
+Fold 4 accuracy: 0.8318
+
+========== OOF SUMMARY ==========
+Accuracy: 0.824763
+Macro P/R/F1: 0.7022 / 0.6746 / 0.6865
+Saved: results\sc_b0_ce_lambda0.1_seed44_20261004_195647

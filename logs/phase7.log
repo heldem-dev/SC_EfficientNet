@@ -1,0 +1,788 @@
+training\train_cv_unified.py:86: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:214.)
+  torch.as_tensor(weights, dtype=torch.double),
+Device: cuda
+Model: baseline b4
+Image size: 384
+Results: results\baseline_b4_ce_sampler_seed43_20261004_213802
+Checkpoints: checkpoints\baseline_b4_ce_sampler_seed43_20261004_213802
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=1.00817 cls=1.00817 cons=0.00000
+Epoch 02/20 loss=0.45780 cls=0.45780 cons=0.00000
+Epoch 03/20 loss=0.30445 cls=0.30445 cons=0.00000
+Epoch 04/20 loss=0.22708 cls=0.22708 cons=0.00000
+Epoch 05/20 loss=0.17706 cls=0.17706 cons=0.00000
+Epoch 06/20 loss=0.14991 cls=0.14991 cons=0.00000
+Epoch 07/20 loss=0.12563 cls=0.12563 cons=0.00000
+Epoch 08/20 loss=0.09274 cls=0.09274 cons=0.00000
+Epoch 09/20 loss=0.08820 cls=0.08820 cons=0.00000
+Epoch 10/20 loss=0.07945 cls=0.07945 cons=0.00000
+Epoch 11/20 loss=0.06976 cls=0.06976 cons=0.00000
+Epoch 12/20 loss=0.05332 cls=0.05332 cons=0.00000
+Epoch 13/20 loss=0.05368 cls=0.05368 cons=0.00000
+Epoch 14/20 loss=0.04352 cls=0.04352 cons=0.00000
+Epoch 15/20 loss=0.03957 cls=0.03957 cons=0.00000
+Epoch 16/20 loss=0.03585 cls=0.03585 cons=0.00000
+Epoch 17/20 loss=0.03895 cls=0.03895 cons=0.00000
+Epoch 18/20 loss=0.03008 cls=0.03008 cons=0.00000
+Epoch 19/20 loss=0.03049 cls=0.03049 cons=0.00000
+Epoch 20/20 loss=0.02870 cls=0.02870 cons=0.00000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fold 0 accuracy: 0.8481
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=1.01242 cls=1.01242 cons=0.00000
+Epoch 02/20 loss=0.47202 cls=0.47202 cons=0.00000
+Epoch 03/20 loss=0.29745 cls=0.29745 cons=0.00000
+Epoch 04/20 loss=0.22716 cls=0.22716 cons=0.00000
+Epoch 05/20 loss=0.18137 cls=0.18137 cons=0.00000
+Epoch 06/20 loss=0.14210 cls=0.14210 cons=0.00000
+Epoch 07/20 loss=0.10766 cls=0.10766 cons=0.00000
+Epoch 08/20 loss=0.09421 cls=0.09421 cons=0.00000
+Epoch 09/20 loss=0.08573 cls=0.08573 cons=0.00000
+Epoch 10/20 loss=0.07275 cls=0.07275 cons=0.00000
+Epoch 11/20 loss=0.05758 cls=0.05758 cons=0.00000
+Epoch 12/20 loss=0.05938 cls=0.05938 cons=0.00000
+Epoch 13/20 loss=0.05313 cls=0.05313 cons=0.00000
+Epoch 14/20 loss=0.05079 cls=0.05079 cons=0.00000
+Epoch 15/20 loss=0.03902 cls=0.03902 cons=0.00000
+Epoch 16/20 loss=0.03345 cls=0.03345 cons=0.00000
+Epoch 17/20 loss=0.03545 cls=0.03545 cons=0.00000
+Epoch 18/20 loss=0.02929 cls=0.02929 cons=0.00000
+Epoch 19/20 loss=0.03078 cls=0.03078 cons=0.00000
+Epoch 20/20 loss=0.02807 cls=0.02807 cons=0.00000
+Fold 1 accuracy: 0.8403
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=1.02111 cls=1.02111 cons=0.00000
+Epoch 02/20 loss=0.45529 cls=0.45529 cons=0.00000
+Epoch 03/20 loss=0.32282 cls=0.32282 cons=0.00000
+Epoch 04/20 loss=0.23616 cls=0.23616 cons=0.00000
+Epoch 05/20 loss=0.16747 cls=0.16747 cons=0.00000
+Epoch 06/20 loss=0.14012 cls=0.14012 cons=0.00000
+Epoch 07/20 loss=0.10949 cls=0.10949 cons=0.00000
+Epoch 08/20 loss=0.10007 cls=0.10007 cons=0.00000
+Epoch 09/20 loss=0.08308 cls=0.08308 cons=0.00000
+Epoch 10/20 loss=0.06764 cls=0.06764 cons=0.00000
+Epoch 11/20 loss=0.06331 cls=0.06331 cons=0.00000
+Epoch 12/20 loss=0.05813 cls=0.05813 cons=0.00000
+Epoch 13/20 loss=0.05184 cls=0.05184 cons=0.00000
+Epoch 14/20 loss=0.04338 cls=0.04338 cons=0.00000
+Epoch 15/20 loss=0.03641 cls=0.03641 cons=0.00000
+Epoch 16/20 loss=0.03873 cls=0.03873 cons=0.00000
+Epoch 17/20 loss=0.03432 cls=0.03432 cons=0.00000
+Epoch 18/20 loss=0.03638 cls=0.03638 cons=0.00000
+Epoch 19/20 loss=0.03060 cls=0.03060 cons=0.00000
+Epoch 20/20 loss=0.02941 cls=0.02941 cons=0.00000
+Fold 2 accuracy: 0.8438
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=1.01161 cls=1.01161 cons=0.00000
+Epoch 02/20 loss=0.47977 cls=0.47977 cons=0.00000
+Epoch 03/20 loss=0.29641 cls=0.29641 cons=0.00000
+Epoch 04/20 loss=0.22647 cls=0.22647 cons=0.00000
+Epoch 05/20 loss=0.16548 cls=0.16548 cons=0.00000
+Epoch 06/20 loss=0.13565 cls=0.13565 cons=0.00000
+Epoch 07/20 loss=0.11182 cls=0.11182 cons=0.00000
+Epoch 08/20 loss=0.10005 cls=0.10005 cons=0.00000
+Epoch 09/20 loss=0.08182 cls=0.08182 cons=0.00000
+Epoch 10/20 loss=0.07336 cls=0.07336 cons=0.00000
+Epoch 11/20 loss=0.06834 cls=0.06834 cons=0.00000
+Epoch 12/20 loss=0.06742 cls=0.06742 cons=0.00000
+Epoch 13/20 loss=0.04852 cls=0.04852 cons=0.00000
+Epoch 14/20 loss=0.04234 cls=0.04234 cons=0.00000
+Epoch 15/20 loss=0.04632 cls=0.04632 cons=0.00000
+Epoch 16/20 loss=0.03711 cls=0.03711 cons=0.00000
+Epoch 17/20 loss=0.02910 cls=0.02910 cons=0.00000
+Epoch 18/20 loss=0.03349 cls=0.03349 cons=0.00000
+Epoch 19/20 loss=0.03781 cls=0.03781 cons=0.00000
+Epoch 20/20 loss=0.02624 cls=0.02624 cons=0.00000
+Fold 3 accuracy: 0.8416
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=1.01822 cls=1.01822 cons=0.00000
+Epoch 02/20 loss=0.48130 cls=0.48130 cons=0.00000
+Epoch 03/20 loss=0.31647 cls=0.31647 cons=0.00000
+Epoch 04/20 loss=0.22914 cls=0.22914 cons=0.00000
+Epoch 05/20 loss=0.17334 cls=0.17334 cons=0.00000
+Epoch 06/20 loss=0.14821 cls=0.14821 cons=0.00000
+Epoch 07/20 loss=0.11913 cls=0.11913 cons=0.00000
+Epoch 08/20 loss=0.09315 cls=0.09315 cons=0.00000
+Epoch 09/20 loss=0.07648 cls=0.07648 cons=0.00000
+Epoch 10/20 loss=0.07283 cls=0.07283 cons=0.00000
+Epoch 11/20 loss=0.06205 cls=0.06205 cons=0.00000
+Epoch 12/20 loss=0.05126 cls=0.05126 cons=0.00000
+Epoch 13/20 loss=0.05143 cls=0.05143 cons=0.00000
+Epoch 14/20 loss=0.05004 cls=0.05004 cons=0.00000
+Epoch 15/20 loss=0.04154 cls=0.04154 cons=0.00000
+Epoch 16/20 loss=0.03277 cls=0.03277 cons=0.00000
+Epoch 17/20 loss=0.03415 cls=0.03415 cons=0.00000
+Epoch 18/20 loss=0.02840 cls=0.02840 cons=0.00000
+Epoch 19/20 loss=0.02824 cls=0.02824 cons=0.00000
+Epoch 20/20 loss=0.02645 cls=0.02645 cons=0.00000
+Fold 4 accuracy: 0.8455
+
+========== OOF SUMMARY ==========
+Accuracy: 0.843834
+Macro P/R/F1: 0.7455 / 0.7083 / 0.7254
+Saved: results\baseline_b4_ce_sampler_seed43_20261004_213802
+training\train_cv_unified.py:86: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:214.)
+  torch.as_tensor(weights, dtype=torch.double),
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Device: cuda
+Model: headless b4
+Image size: 384
+Results: results\headless_b4_ce_sampler_seed43_20261004_235629
+Checkpoints: checkpoints\headless_b4_ce_sampler_seed43_20261004_235629
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=1.03026 cls=1.03026 cons=0.00000
+Epoch 02/20 loss=0.47918 cls=0.47918 cons=0.00000
+Epoch 03/20 loss=0.32476 cls=0.32476 cons=0.00000
+Epoch 04/20 loss=0.23740 cls=0.23740 cons=0.00000
+Epoch 05/20 loss=0.18936 cls=0.18936 cons=0.00000
+Epoch 06/20 loss=0.15700 cls=0.15700 cons=0.00000
+Epoch 07/20 loss=0.13535 cls=0.13535 cons=0.00000
+Epoch 08/20 loss=0.10332 cls=0.10332 cons=0.00000
+Epoch 09/20 loss=0.08798 cls=0.08798 cons=0.00000
+Epoch 10/20 loss=0.07861 cls=0.07861 cons=0.00000
+Epoch 11/20 loss=0.06576 cls=0.06576 cons=0.00000
+Epoch 12/20 loss=0.05732 cls=0.05732 cons=0.00000
+Epoch 13/20 loss=0.06132 cls=0.06132 cons=0.00000
+Epoch 14/20 loss=0.05047 cls=0.05047 cons=0.00000
+Epoch 15/20 loss=0.04019 cls=0.04019 cons=0.00000
+Epoch 16/20 loss=0.04072 cls=0.04072 cons=0.00000
+Epoch 17/20 loss=0.03982 cls=0.03982 cons=0.00000
+Epoch 18/20 loss=0.03252 cls=0.03252 cons=0.00000
+Epoch 19/20 loss=0.03770 cls=0.03770 cons=0.00000
+Epoch 20/20 loss=0.03474 cls=0.03474 cons=0.00000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 0 accuracy: 0.8505
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=1.04364 cls=1.04364 cons=0.00000
+Epoch 02/20 loss=0.49425 cls=0.49425 cons=0.00000
+Epoch 03/20 loss=0.32761 cls=0.32761 cons=0.00000
+Epoch 04/20 loss=0.24746 cls=0.24746 cons=0.00000
+Epoch 05/20 loss=0.18852 cls=0.18852 cons=0.00000
+Epoch 06/20 loss=0.15116 cls=0.15116 cons=0.00000
+Epoch 07/20 loss=0.11621 cls=0.11621 cons=0.00000
+Epoch 08/20 loss=0.09859 cls=0.09859 cons=0.00000
+Epoch 09/20 loss=0.09682 cls=0.09682 cons=0.00000
+Epoch 10/20 loss=0.07904 cls=0.07904 cons=0.00000
+Epoch 11/20 loss=0.06907 cls=0.06907 cons=0.00000
+Epoch 12/20 loss=0.06523 cls=0.06523 cons=0.00000
+Epoch 13/20 loss=0.05440 cls=0.05440 cons=0.00000
+Epoch 14/20 loss=0.05226 cls=0.05226 cons=0.00000
+Epoch 15/20 loss=0.04171 cls=0.04171 cons=0.00000
+Epoch 16/20 loss=0.04054 cls=0.04054 cons=0.00000
+Epoch 17/20 loss=0.03907 cls=0.03907 cons=0.00000
+Epoch 18/20 loss=0.03607 cls=0.03607 cons=0.00000
+Epoch 19/20 loss=0.03484 cls=0.03484 cons=0.00000
+Epoch 20/20 loss=0.03190 cls=0.03190 cons=0.00000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 1 accuracy: 0.8523
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=1.02429 cls=1.02429 cons=0.00000
+Epoch 02/20 loss=0.47471 cls=0.47471 cons=0.00000
+Epoch 03/20 loss=0.33298 cls=0.33298 cons=0.00000
+Epoch 04/20 loss=0.24168 cls=0.24168 cons=0.00000
+Epoch 05/20 loss=0.18786 cls=0.18786 cons=0.00000
+Epoch 06/20 loss=0.15051 cls=0.15051 cons=0.00000
+Epoch 07/20 loss=0.11961 cls=0.11961 cons=0.00000
+Epoch 08/20 loss=0.10856 cls=0.10856 cons=0.00000
+Epoch 09/20 loss=0.09071 cls=0.09071 cons=0.00000
+Epoch 10/20 loss=0.07344 cls=0.07344 cons=0.00000
+Epoch 11/20 loss=0.06142 cls=0.06142 cons=0.00000
+Epoch 12/20 loss=0.06047 cls=0.06047 cons=0.00000
+Epoch 13/20 loss=0.05224 cls=0.05224 cons=0.00000
+Epoch 14/20 loss=0.04239 cls=0.04239 cons=0.00000
+Epoch 15/20 loss=0.04430 cls=0.04430 cons=0.00000
+Epoch 16/20 loss=0.04308 cls=0.04308 cons=0.00000
+Epoch 17/20 loss=0.03609 cls=0.03609 cons=0.00000
+Epoch 18/20 loss=0.04524 cls=0.04524 cons=0.00000
+Epoch 19/20 loss=0.03302 cls=0.03302 cons=0.00000
+Epoch 20/20 loss=0.02914 cls=0.02914 cons=0.00000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 2 accuracy: 0.8507
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=0.97480 cls=0.97480 cons=0.00000
+Epoch 02/20 loss=0.48376 cls=0.48376 cons=0.00000
+Epoch 03/20 loss=0.31486 cls=0.31486 cons=0.00000
+Epoch 04/20 loss=0.24016 cls=0.24016 cons=0.00000
+Epoch 05/20 loss=0.16978 cls=0.16978 cons=0.00000
+Epoch 06/20 loss=0.13749 cls=0.13749 cons=0.00000
+Epoch 07/20 loss=0.11507 cls=0.11507 cons=0.00000
+Epoch 08/20 loss=0.10415 cls=0.10415 cons=0.00000
+Epoch 09/20 loss=0.08821 cls=0.08821 cons=0.00000
+Epoch 10/20 loss=0.08156 cls=0.08156 cons=0.00000
+Epoch 11/20 loss=0.06626 cls=0.06626 cons=0.00000
+Epoch 12/20 loss=0.06439 cls=0.06439 cons=0.00000
+Epoch 13/20 loss=0.05626 cls=0.05626 cons=0.00000
+Epoch 14/20 loss=0.04610 cls=0.04610 cons=0.00000
+Epoch 15/20 loss=0.04373 cls=0.04373 cons=0.00000
+Epoch 16/20 loss=0.04026 cls=0.04026 cons=0.00000
+Epoch 17/20 loss=0.03405 cls=0.03405 cons=0.00000
+Epoch 18/20 loss=0.03249 cls=0.03249 cons=0.00000
+Epoch 19/20 loss=0.03591 cls=0.03591 cons=0.00000
+Epoch 20/20 loss=0.03085 cls=0.03085 cons=0.00000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 3 accuracy: 0.8381
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=0.99418 cls=0.99418 cons=0.00000
+Epoch 02/20 loss=0.48024 cls=0.48024 cons=0.00000
+Epoch 03/20 loss=0.32099 cls=0.32099 cons=0.00000
+Epoch 04/20 loss=0.23591 cls=0.23591 cons=0.00000
+Epoch 05/20 loss=0.18251 cls=0.18251 cons=0.00000
+Epoch 06/20 loss=0.15251 cls=0.15251 cons=0.00000
+Epoch 07/20 loss=0.11736 cls=0.11736 cons=0.00000
+Epoch 08/20 loss=0.10393 cls=0.10393 cons=0.00000
+Epoch 09/20 loss=0.08818 cls=0.08818 cons=0.00000
+Epoch 10/20 loss=0.07953 cls=0.07953 cons=0.00000
+Epoch 11/20 loss=0.06758 cls=0.06758 cons=0.00000
+Epoch 12/20 loss=0.06609 cls=0.06609 cons=0.00000
+Epoch 13/20 loss=0.05490 cls=0.05490 cons=0.00000
+Epoch 14/20 loss=0.04182 cls=0.04182 cons=0.00000
+Epoch 15/20 loss=0.04429 cls=0.04429 cons=0.00000
+Epoch 16/20 loss=0.04228 cls=0.04228 cons=0.00000
+Epoch 17/20 loss=0.04786 cls=0.04786 cons=0.00000
+Epoch 18/20 loss=0.03287 cls=0.03287 cons=0.00000
+Epoch 19/20 loss=0.03289 cls=0.03289 cons=0.00000
+Epoch 20/20 loss=0.03456 cls=0.03456 cons=0.00000
+Fold 4 accuracy: 0.8581
+
+========== OOF SUMMARY ==========
+Accuracy: 0.849925
+Macro P/R/F1: 0.7623 / 0.7054 / 0.7273
+Saved: results\headless_b4_ce_sampler_seed43_20261004_235629
+training\train_cv_unified.py:86: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:214.)
+  torch.as_tensor(weights, dtype=torch.double),
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Device: cuda
+Model: sc b4
+Image size: 384
+Results: results\sc_b4_ce_lambda0.1_sampler_seed43_20261005_021331
+Checkpoints: checkpoints\sc_b4_ce_lambda0.1_sampler_seed43_20261005_021331
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=1.01802 cls=0.99548 cons=0.22540 mask_mean=0.715 mask<0.5=0.278
+Epoch 02/20 loss=0.47686 cls=0.46976 cons=0.07098 mask_mean=0.923 mask<0.5=0.068
+Epoch 03/20 loss=0.32269 cls=0.31890 cons=0.03791 mask_mean=0.944 mask<0.5=0.050
+Epoch 04/20 loss=0.23886 cls=0.23648 cons=0.02387 mask_mean=0.952 mask<0.5=0.043
+Epoch 05/20 loss=0.18574 cls=0.18405 cons=0.01685 mask_mean=0.956 mask<0.5=0.040
+Epoch 06/20 loss=0.15198 cls=0.15080 cons=0.01186 mask_mean=0.958 mask<0.5=0.039
+Epoch 07/20 loss=0.12969 cls=0.12875 cons=0.00942 mask_mean=0.960 mask<0.5=0.037
+Epoch 08/20 loss=0.09517 cls=0.09454 cons=0.00632 mask_mean=0.961 mask<0.5=0.036
+Epoch 09/20 loss=0.08853 cls=0.08802 cons=0.00507 mask_mean=0.964 mask<0.5=0.035
+Epoch 10/20 loss=0.07979 cls=0.07934 cons=0.00448 mask_mean=0.965 mask<0.5=0.034
+Epoch 11/20 loss=0.06631 cls=0.06597 cons=0.00337 mask_mean=0.967 mask<0.5=0.032
+Epoch 12/20 loss=0.05380 cls=0.05352 cons=0.00280 mask_mean=0.968 mask<0.5=0.031
+Epoch 13/20 loss=0.05652 cls=0.05625 cons=0.00272 mask_mean=0.970 mask<0.5=0.029
+Epoch 14/20 loss=0.04634 cls=0.04613 cons=0.00213 mask_mean=0.973 mask<0.5=0.027
+Epoch 15/20 loss=0.04129 cls=0.04112 cons=0.00167 mask_mean=0.978 mask<0.5=0.021
+Epoch 16/20 loss=0.03223 cls=0.03209 cons=0.00144 mask_mean=0.985 mask<0.5=0.015
+Epoch 17/20 loss=0.04335 cls=0.04321 cons=0.00140 mask_mean=0.987 mask<0.5=0.013
+Epoch 18/20 loss=0.03021 cls=0.03009 cons=0.00126 mask_mean=0.987 mask<0.5=0.012
+Epoch 19/20 loss=0.03640 cls=0.03629 cons=0.00110 mask_mean=0.989 mask<0.5=0.010
+Epoch 20/20 loss=0.03020 cls=0.03011 cons=0.00094 mask_mean=0.991 mask<0.5=0.008
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 0 accuracy: 0.8545
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=1.03755 cls=1.01150 cons=0.26046 mask_mean=0.992 mask<0.5=0.008
+Epoch 02/20 loss=0.48490 cls=0.47670 cons=0.08203 mask_mean=0.997 mask<0.5=0.003
+Epoch 03/20 loss=0.32218 cls=0.31780 cons=0.04383 mask_mean=0.997 mask<0.5=0.003
+Epoch 04/20 loss=0.24554 cls=0.24290 cons=0.02637 mask_mean=0.997 mask<0.5=0.002
+Epoch 05/20 loss=0.18619 cls=0.18452 cons=0.01668 mask_mean=0.998 mask<0.5=0.002
+Epoch 06/20 loss=0.15086 cls=0.14971 cons=0.01157 mask_mean=0.997 mask<0.5=0.002
+Epoch 07/20 loss=0.11952 cls=0.11867 cons=0.00850 mask_mean=0.998 mask<0.5=0.002
+Epoch 08/20 loss=0.09869 cls=0.09810 cons=0.00583 mask_mean=0.999 mask<0.5=0.001
+Epoch 09/20 loss=0.09284 cls=0.09238 cons=0.00457 mask_mean=0.999 mask<0.5=0.001
+Epoch 10/20 loss=0.07927 cls=0.07888 cons=0.00390 mask_mean=0.999 mask<0.5=0.001
+Epoch 11/20 loss=0.06463 cls=0.06434 cons=0.00284 mask_mean=1.000 mask<0.5=0.000
+Epoch 12/20 loss=0.06875 cls=0.06849 cons=0.00253 mask_mean=1.000 mask<0.5=0.000
+Epoch 13/20 loss=0.05670 cls=0.05650 cons=0.00200 mask_mean=1.000 mask<0.5=0.000
+Epoch 14/20 loss=0.05481 cls=0.05462 cons=0.00192 mask_mean=1.000 mask<0.5=0.000
+Epoch 15/20 loss=0.04611 cls=0.04595 cons=0.00155 mask_mean=1.000 mask<0.5=0.000
+Epoch 16/20 loss=0.04136 cls=0.04124 cons=0.00121 mask_mean=1.000 mask<0.5=0.000
+Epoch 17/20 loss=0.03941 cls=0.03930 cons=0.00102 mask_mean=1.000 mask<0.5=0.000
+Epoch 18/20 loss=0.03401 cls=0.03391 cons=0.00103 mask_mean=1.000 mask<0.5=0.000
+Epoch 19/20 loss=0.03297 cls=0.03288 cons=0.00093 mask_mean=1.000 mask<0.5=0.000
+Epoch 20/20 loss=0.03154 cls=0.03144 cons=0.00097 mask_mean=1.000 mask<0.5=0.000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 1 accuracy: 0.8468
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=1.01777 cls=0.99219 cons=0.25587 mask_mean=0.795 mask<0.5=0.188
+Epoch 02/20 loss=0.47241 cls=0.46443 cons=0.07974 mask_mean=0.903 mask<0.5=0.083
+Epoch 03/20 loss=0.33460 cls=0.33024 cons=0.04363 mask_mean=0.926 mask<0.5=0.064
+Epoch 04/20 loss=0.24885 cls=0.24610 cons=0.02748 mask_mean=0.941 mask<0.5=0.052
+Epoch 05/20 loss=0.18680 cls=0.18505 cons=0.01757 mask_mean=0.948 mask<0.5=0.046
+Epoch 06/20 loss=0.15135 cls=0.15011 cons=0.01238 mask_mean=0.953 mask<0.5=0.042
+Epoch 07/20 loss=0.12456 cls=0.12361 cons=0.00956 mask_mean=0.959 mask<0.5=0.038
+Epoch 08/20 loss=0.10896 cls=0.10826 cons=0.00706 mask_mean=0.964 mask<0.5=0.033
+Epoch 09/20 loss=0.08814 cls=0.08757 cons=0.00572 mask_mean=0.967 mask<0.5=0.030
+Epoch 10/20 loss=0.07604 cls=0.07562 cons=0.00420 mask_mean=0.974 mask<0.5=0.024
+Epoch 11/20 loss=0.06811 cls=0.06774 cons=0.00371 mask_mean=0.977 mask<0.5=0.021
+Epoch 12/20 loss=0.06569 cls=0.06541 cons=0.00285 mask_mean=0.980 mask<0.5=0.019
+Epoch 13/20 loss=0.05415 cls=0.05389 cons=0.00259 mask_mean=0.981 mask<0.5=0.018
+Epoch 14/20 loss=0.04601 cls=0.04581 cons=0.00195 mask_mean=0.983 mask<0.5=0.016
+Epoch 15/20 loss=0.04302 cls=0.04284 cons=0.00182 mask_mean=0.985 mask<0.5=0.014
+Epoch 16/20 loss=0.04435 cls=0.04417 cons=0.00171 mask_mean=0.988 mask<0.5=0.012
+Epoch 17/20 loss=0.03530 cls=0.03517 cons=0.00127 mask_mean=0.990 mask<0.5=0.010
+Epoch 18/20 loss=0.04488 cls=0.04476 cons=0.00123 mask_mean=0.993 mask<0.5=0.007
+Epoch 19/20 loss=0.03313 cls=0.03302 cons=0.00111 mask_mean=0.994 mask<0.5=0.005
+Epoch 20/20 loss=0.03100 cls=0.03090 cons=0.00105 mask_mean=0.995 mask<0.5=0.004
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 2 accuracy: 0.8572
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=1.06145 cls=1.03688 cons=0.24566 mask_mean=0.632 mask<0.5=0.365
+Epoch 02/20 loss=0.49671 cls=0.48962 cons=0.07090 mask_mean=0.925 mask<0.5=0.064
+Epoch 03/20 loss=0.30980 cls=0.30600 cons=0.03798 mask_mean=0.943 mask<0.5=0.049
+Epoch 04/20 loss=0.23064 cls=0.22831 cons=0.02333 mask_mean=0.954 mask<0.5=0.040
+Epoch 05/20 loss=0.17104 cls=0.16956 cons=0.01475 mask_mean=0.960 mask<0.5=0.035
+Epoch 06/20 loss=0.13146 cls=0.13052 cons=0.00939 mask_mean=0.965 mask<0.5=0.031
+Epoch 07/20 loss=0.11132 cls=0.11061 cons=0.00703 mask_mean=0.972 mask<0.5=0.025
+Epoch 08/20 loss=0.10521 cls=0.10464 cons=0.00573 mask_mean=0.976 mask<0.5=0.021
+Epoch 09/20 loss=0.08346 cls=0.08303 cons=0.00426 mask_mean=0.978 mask<0.5=0.020
+Epoch 10/20 loss=0.07547 cls=0.07509 cons=0.00371 mask_mean=0.980 mask<0.5=0.018
+Epoch 11/20 loss=0.06278 cls=0.06252 cons=0.00260 mask_mean=0.982 mask<0.5=0.016
+Epoch 12/20 loss=0.05986 cls=0.05963 cons=0.00237 mask_mean=0.984 mask<0.5=0.015
+Epoch 13/20 loss=0.05078 cls=0.05060 cons=0.00179 mask_mean=0.986 mask<0.5=0.013
+Epoch 14/20 loss=0.04411 cls=0.04394 cons=0.00163 mask_mean=0.988 mask<0.5=0.011
+Epoch 15/20 loss=0.04844 cls=0.04831 cons=0.00135 mask_mean=0.990 mask<0.5=0.009
+Epoch 16/20 loss=0.03473 cls=0.03461 cons=0.00125 mask_mean=0.991 mask<0.5=0.008
+Epoch 17/20 loss=0.03256 cls=0.03244 cons=0.00117 mask_mean=0.992 mask<0.5=0.008
+Epoch 18/20 loss=0.03151 cls=0.03141 cons=0.00099 mask_mean=0.993 mask<0.5=0.007
+Epoch 19/20 loss=0.03613 cls=0.03604 cons=0.00088 mask_mean=0.993 mask<0.5=0.006
+Epoch 20/20 loss=0.03352 cls=0.03344 cons=0.00085 mask_mean=0.995 mask<0.5=0.005
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 3 accuracy: 0.8411
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=1.03287 cls=1.01005 cons=0.22817 mask_mean=0.700 mask<0.5=0.290
+Epoch 02/20 loss=0.48843 cls=0.48141 cons=0.07012 mask_mean=0.930 mask<0.5=0.056
+Epoch 03/20 loss=0.33097 cls=0.32723 cons=0.03736 mask_mean=0.951 mask<0.5=0.041
+Epoch 04/20 loss=0.23503 cls=0.23276 cons=0.02269 mask_mean=0.959 mask<0.5=0.034
+Epoch 05/20 loss=0.18234 cls=0.18090 cons=0.01440 mask_mean=0.966 mask<0.5=0.029
+Epoch 06/20 loss=0.15649 cls=0.15548 cons=0.01009 mask_mean=0.970 mask<0.5=0.026
+Epoch 07/20 loss=0.11445 cls=0.11373 cons=0.00719 mask_mean=0.972 mask<0.5=0.024
+Epoch 08/20 loss=0.10284 cls=0.10227 cons=0.00565 mask_mean=0.975 mask<0.5=0.022
+Epoch 09/20 loss=0.08218 cls=0.08174 cons=0.00444 mask_mean=0.978 mask<0.5=0.020
+Epoch 10/20 loss=0.07934 cls=0.07895 cons=0.00380 mask_mean=0.981 mask<0.5=0.017
+Epoch 11/20 loss=0.06550 cls=0.06520 cons=0.00297 mask_mean=0.983 mask<0.5=0.015
+Epoch 12/20 loss=0.06085 cls=0.06061 cons=0.00242 mask_mean=0.985 mask<0.5=0.014
+Epoch 13/20 loss=0.05398 cls=0.05377 cons=0.00205 mask_mean=0.986 mask<0.5=0.013
+Epoch 14/20 loss=0.05027 cls=0.05010 cons=0.00175 mask_mean=0.987 mask<0.5=0.012
+Epoch 15/20 loss=0.04872 cls=0.04857 cons=0.00147 mask_mean=0.988 mask<0.5=0.012
+Epoch 16/20 loss=0.04350 cls=0.04336 cons=0.00139 mask_mean=0.988 mask<0.5=0.011
+Epoch 17/20 loss=0.04007 cls=0.03993 cons=0.00135 mask_mean=0.988 mask<0.5=0.011
+Epoch 18/20 loss=0.03430 cls=0.03419 cons=0.00115 mask_mean=0.988 mask<0.5=0.011
+Epoch 19/20 loss=0.03580 cls=0.03569 cons=0.00110 mask_mean=0.988 mask<0.5=0.011
+Epoch 20/20 loss=0.03347 cls=0.03337 cons=0.00094 mask_mean=0.989 mask<0.5=0.011
+Fold 4 accuracy: 0.8596
+
+========== OOF SUMMARY ==========
+Accuracy: 0.851822
+Macro P/R/F1: 0.7721 / 0.7123 / 0.7360
+Saved: results\sc_b4_ce_lambda0.1_sampler_seed43_20261005_021331
+training\train_cv_unified.py:86: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:214.)
+  torch.as_tensor(weights, dtype=torch.double),
+Device: cuda
+Model: baseline b4
+Image size: 384
+Results: results\baseline_b4_ce_sampler_seed44_20261005_043106
+Checkpoints: checkpoints\baseline_b4_ce_sampler_seed44_20261005_043106
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=1.03471 cls=1.03471 cons=0.00000
+Epoch 02/20 loss=0.46572 cls=0.46572 cons=0.00000
+Epoch 03/20 loss=0.31907 cls=0.31907 cons=0.00000
+Epoch 04/20 loss=0.23409 cls=0.23409 cons=0.00000
+Epoch 05/20 loss=0.18750 cls=0.18750 cons=0.00000
+Epoch 06/20 loss=0.14261 cls=0.14261 cons=0.00000
+Epoch 07/20 loss=0.11606 cls=0.11606 cons=0.00000
+Epoch 08/20 loss=0.10179 cls=0.10179 cons=0.00000
+Epoch 09/20 loss=0.08448 cls=0.08448 cons=0.00000
+Epoch 10/20 loss=0.07306 cls=0.07306 cons=0.00000
+Epoch 11/20 loss=0.06630 cls=0.06630 cons=0.00000
+Epoch 12/20 loss=0.06593 cls=0.06593 cons=0.00000
+Epoch 13/20 loss=0.05297 cls=0.05297 cons=0.00000
+Epoch 14/20 loss=0.04984 cls=0.04984 cons=0.00000
+Epoch 15/20 loss=0.03677 cls=0.03677 cons=0.00000
+Epoch 16/20 loss=0.04033 cls=0.04033 cons=0.00000
+Epoch 17/20 loss=0.03417 cls=0.03417 cons=0.00000
+Epoch 18/20 loss=0.03201 cls=0.03201 cons=0.00000
+Epoch 19/20 loss=0.03198 cls=0.03198 cons=0.00000
+Epoch 20/20 loss=0.02356 cls=0.02356 cons=0.00000
+Fold 0 accuracy: 0.8361
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=1.01893 cls=1.01893 cons=0.00000
+Epoch 02/20 loss=0.46629 cls=0.46629 cons=0.00000
+Epoch 03/20 loss=0.31218 cls=0.31218 cons=0.00000
+Epoch 04/20 loss=0.22654 cls=0.22654 cons=0.00000
+Epoch 05/20 loss=0.18566 cls=0.18566 cons=0.00000
+Epoch 06/20 loss=0.13755 cls=0.13755 cons=0.00000
+Epoch 07/20 loss=0.11812 cls=0.11812 cons=0.00000
+Epoch 08/20 loss=0.09935 cls=0.09935 cons=0.00000
+Epoch 09/20 loss=0.08297 cls=0.08297 cons=0.00000
+Epoch 10/20 loss=0.06950 cls=0.06950 cons=0.00000
+Epoch 11/20 loss=0.06091 cls=0.06091 cons=0.00000
+Epoch 12/20 loss=0.05421 cls=0.05421 cons=0.00000
+Epoch 13/20 loss=0.04232 cls=0.04232 cons=0.00000
+Epoch 14/20 loss=0.04497 cls=0.04497 cons=0.00000
+Epoch 15/20 loss=0.04579 cls=0.04579 cons=0.00000
+Epoch 16/20 loss=0.03921 cls=0.03921 cons=0.00000
+Epoch 17/20 loss=0.03146 cls=0.03146 cons=0.00000
+Epoch 18/20 loss=0.03378 cls=0.03378 cons=0.00000
+Epoch 19/20 loss=0.02994 cls=0.02994 cons=0.00000
+Epoch 20/20 loss=0.02396 cls=0.02396 cons=0.00000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fold 1 accuracy: 0.8378
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=1.02591 cls=1.02591 cons=0.00000
+Epoch 02/20 loss=0.48915 cls=0.48915 cons=0.00000
+Epoch 03/20 loss=0.31082 cls=0.31082 cons=0.00000
+Epoch 04/20 loss=0.23689 cls=0.23689 cons=0.00000
+Epoch 05/20 loss=0.18295 cls=0.18295 cons=0.00000
+Epoch 06/20 loss=0.13908 cls=0.13908 cons=0.00000
+Epoch 07/20 loss=0.11286 cls=0.11286 cons=0.00000
+Epoch 08/20 loss=0.09579 cls=0.09579 cons=0.00000
+Epoch 09/20 loss=0.08202 cls=0.08202 cons=0.00000
+Epoch 10/20 loss=0.06797 cls=0.06797 cons=0.00000
+Epoch 11/20 loss=0.06447 cls=0.06447 cons=0.00000
+Epoch 12/20 loss=0.05026 cls=0.05026 cons=0.00000
+Epoch 13/20 loss=0.05661 cls=0.05661 cons=0.00000
+Epoch 14/20 loss=0.04307 cls=0.04307 cons=0.00000
+Epoch 15/20 loss=0.04031 cls=0.04031 cons=0.00000
+Epoch 16/20 loss=0.03923 cls=0.03923 cons=0.00000
+Epoch 17/20 loss=0.03181 cls=0.03181 cons=0.00000
+Epoch 18/20 loss=0.03091 cls=0.03091 cons=0.00000
+Epoch 19/20 loss=0.02967 cls=0.02967 cons=0.00000
+Epoch 20/20 loss=0.03045 cls=0.03045 cons=0.00000
+Fold 2 accuracy: 0.8453
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=1.00615 cls=1.00615 cons=0.00000
+Epoch 02/20 loss=0.44113 cls=0.44113 cons=0.00000
+Epoch 03/20 loss=0.30734 cls=0.30734 cons=0.00000
+Epoch 04/20 loss=0.21748 cls=0.21748 cons=0.00000
+Epoch 05/20 loss=0.17997 cls=0.17997 cons=0.00000
+Epoch 06/20 loss=0.13858 cls=0.13858 cons=0.00000
+Epoch 07/20 loss=0.11587 cls=0.11587 cons=0.00000
+Epoch 08/20 loss=0.09613 cls=0.09613 cons=0.00000
+Epoch 09/20 loss=0.08132 cls=0.08132 cons=0.00000
+Epoch 10/20 loss=0.06457 cls=0.06457 cons=0.00000
+Epoch 11/20 loss=0.06957 cls=0.06957 cons=0.00000
+Epoch 12/20 loss=0.05285 cls=0.05285 cons=0.00000
+Epoch 13/20 loss=0.05335 cls=0.05335 cons=0.00000
+Epoch 14/20 loss=0.03845 cls=0.03845 cons=0.00000
+Epoch 15/20 loss=0.04300 cls=0.04300 cons=0.00000
+Epoch 16/20 loss=0.03278 cls=0.03278 cons=0.00000
+Epoch 17/20 loss=0.03879 cls=0.03879 cons=0.00000
+Epoch 18/20 loss=0.03274 cls=0.03274 cons=0.00000
+Epoch 19/20 loss=0.02587 cls=0.02587 cons=0.00000
+Epoch 20/20 loss=0.02679 cls=0.02679 cons=0.00000
+Fold 3 accuracy: 0.8391
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=1.03585 cls=1.03585 cons=0.00000
+Epoch 02/20 loss=0.45660 cls=0.45660 cons=0.00000
+Epoch 03/20 loss=0.29996 cls=0.29996 cons=0.00000
+Epoch 04/20 loss=0.22296 cls=0.22296 cons=0.00000
+Epoch 05/20 loss=0.17412 cls=0.17412 cons=0.00000
+Epoch 06/20 loss=0.13313 cls=0.13313 cons=0.00000
+Epoch 07/20 loss=0.11647 cls=0.11647 cons=0.00000
+Epoch 08/20 loss=0.09409 cls=0.09409 cons=0.00000
+Epoch 09/20 loss=0.08683 cls=0.08683 cons=0.00000
+Epoch 10/20 loss=0.06979 cls=0.06979 cons=0.00000
+Epoch 11/20 loss=0.05698 cls=0.05698 cons=0.00000
+Epoch 12/20 loss=0.05166 cls=0.05166 cons=0.00000
+Epoch 13/20 loss=0.05076 cls=0.05076 cons=0.00000
+Epoch 14/20 loss=0.04027 cls=0.04027 cons=0.00000
+Epoch 15/20 loss=0.04613 cls=0.04613 cons=0.00000
+Epoch 16/20 loss=0.03367 cls=0.03367 cons=0.00000
+Epoch 17/20 loss=0.03278 cls=0.03278 cons=0.00000
+Epoch 18/20 loss=0.03174 cls=0.03174 cons=0.00000
+Epoch 19/20 loss=0.02995 cls=0.02995 cons=0.00000
+Epoch 20/20 loss=0.02439 cls=0.02439 cons=0.00000
+Fold 4 accuracy: 0.8475
+
+========== OOF SUMMARY ==========
+Accuracy: 0.841138
+Macro P/R/F1: 0.7489 / 0.6987 / 0.7202
+Saved: results\baseline_b4_ce_sampler_seed44_20261005_043106
+training\train_cv_unified.py:86: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:214.)
+  torch.as_tensor(weights, dtype=torch.double),
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Device: cuda
+Model: headless b4
+Image size: 384
+Results: results\headless_b4_ce_sampler_seed44_20261005_064909
+Checkpoints: checkpoints\headless_b4_ce_sampler_seed44_20261005_064909
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=1.03313 cls=1.03313 cons=0.00000
+Epoch 02/20 loss=0.46729 cls=0.46729 cons=0.00000
+Epoch 03/20 loss=0.33443 cls=0.33443 cons=0.00000
+Epoch 04/20 loss=0.24769 cls=0.24769 cons=0.00000
+Epoch 05/20 loss=0.19223 cls=0.19223 cons=0.00000
+Epoch 06/20 loss=0.14904 cls=0.14904 cons=0.00000
+Epoch 07/20 loss=0.11864 cls=0.11864 cons=0.00000
+Epoch 08/20 loss=0.10826 cls=0.10826 cons=0.00000
+Epoch 09/20 loss=0.08928 cls=0.08928 cons=0.00000
+Epoch 10/20 loss=0.07729 cls=0.07729 cons=0.00000
+Epoch 11/20 loss=0.06881 cls=0.06881 cons=0.00000
+Epoch 12/20 loss=0.06062 cls=0.06062 cons=0.00000
+Epoch 13/20 loss=0.05840 cls=0.05840 cons=0.00000
+Epoch 14/20 loss=0.04655 cls=0.04655 cons=0.00000
+Epoch 15/20 loss=0.04010 cls=0.04010 cons=0.00000
+Epoch 16/20 loss=0.04225 cls=0.04225 cons=0.00000
+Epoch 17/20 loss=0.04569 cls=0.04569 cons=0.00000
+Epoch 18/20 loss=0.03365 cls=0.03365 cons=0.00000
+Epoch 19/20 loss=0.03140 cls=0.03140 cons=0.00000
+Epoch 20/20 loss=0.02656 cls=0.02656 cons=0.00000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 0 accuracy: 0.8560
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=1.00968 cls=1.00968 cons=0.00000
+Epoch 02/20 loss=0.46504 cls=0.46504 cons=0.00000
+Epoch 03/20 loss=0.32037 cls=0.32037 cons=0.00000
+Epoch 04/20 loss=0.24233 cls=0.24233 cons=0.00000
+Epoch 05/20 loss=0.19026 cls=0.19026 cons=0.00000
+Epoch 06/20 loss=0.15031 cls=0.15031 cons=0.00000
+Epoch 07/20 loss=0.12452 cls=0.12452 cons=0.00000
+Epoch 08/20 loss=0.10783 cls=0.10783 cons=0.00000
+Epoch 09/20 loss=0.09097 cls=0.09097 cons=0.00000
+Epoch 10/20 loss=0.08770 cls=0.08770 cons=0.00000
+Epoch 11/20 loss=0.07283 cls=0.07283 cons=0.00000
+Epoch 12/20 loss=0.05820 cls=0.05820 cons=0.00000
+Epoch 13/20 loss=0.04793 cls=0.04793 cons=0.00000
+Epoch 14/20 loss=0.04964 cls=0.04964 cons=0.00000
+Epoch 15/20 loss=0.04465 cls=0.04465 cons=0.00000
+Epoch 16/20 loss=0.04539 cls=0.04539 cons=0.00000
+Epoch 17/20 loss=0.04162 cls=0.04162 cons=0.00000
+Epoch 18/20 loss=0.02706 cls=0.02706 cons=0.00000
+Epoch 19/20 loss=0.03181 cls=0.03181 cons=0.00000
+Epoch 20/20 loss=0.02613 cls=0.02613 cons=0.00000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 1 accuracy: 0.8508
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=1.00258 cls=1.00258 cons=0.00000
+Epoch 02/20 loss=0.48780 cls=0.48780 cons=0.00000
+Epoch 03/20 loss=0.31475 cls=0.31475 cons=0.00000
+Epoch 04/20 loss=0.24196 cls=0.24196 cons=0.00000
+Epoch 05/20 loss=0.18822 cls=0.18822 cons=0.00000
+Epoch 06/20 loss=0.14697 cls=0.14697 cons=0.00000
+Epoch 07/20 loss=0.11783 cls=0.11783 cons=0.00000
+Epoch 08/20 loss=0.10506 cls=0.10506 cons=0.00000
+Epoch 09/20 loss=0.08838 cls=0.08838 cons=0.00000
+Epoch 10/20 loss=0.07023 cls=0.07023 cons=0.00000
+Epoch 11/20 loss=0.07067 cls=0.07067 cons=0.00000
+Epoch 12/20 loss=0.05766 cls=0.05766 cons=0.00000
+Epoch 13/20 loss=0.06293 cls=0.06293 cons=0.00000
+Epoch 14/20 loss=0.04770 cls=0.04770 cons=0.00000
+Epoch 15/20 loss=0.04238 cls=0.04238 cons=0.00000
+Epoch 16/20 loss=0.03682 cls=0.03682 cons=0.00000
+Epoch 17/20 loss=0.03618 cls=0.03618 cons=0.00000
+Epoch 18/20 loss=0.03436 cls=0.03436 cons=0.00000
+Epoch 19/20 loss=0.03239 cls=0.03239 cons=0.00000
+Epoch 20/20 loss=0.03253 cls=0.03253 cons=0.00000
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 2 accuracy: 0.8478
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=1.00476 cls=1.00476 cons=0.00000
+Epoch 02/20 loss=0.46284 cls=0.46284 cons=0.00000
+Epoch 03/20 loss=0.32917 cls=0.32917 cons=0.00000
+Epoch 04/20 loss=0.23643 cls=0.23643 cons=0.00000
+Epoch 05/20 loss=0.18547 cls=0.18547 cons=0.00000
+Epoch 06/20 loss=0.14520 cls=0.14520 cons=0.00000
+Epoch 07/20 loss=0.11962 cls=0.11962 cons=0.00000
+Epoch 08/20 loss=0.10203 cls=0.10203 cons=0.00000
+Epoch 09/20 loss=0.08620 cls=0.08620 cons=0.00000
+Epoch 10/20 loss=0.07851 cls=0.07851 cons=0.00000
+Epoch 11/20 loss=0.06923 cls=0.06923 cons=0.00000
+Epoch 12/20 loss=0.05087 cls=0.05087 cons=0.00000
+Epoch 13/20 loss=0.06012 cls=0.06012 cons=0.00000
+Epoch 14/20 loss=0.04649 cls=0.04649 cons=0.00000
+Epoch 15/20 loss=0.04534 cls=0.04534 cons=0.00000
+Epoch 16/20 loss=0.03427 cls=0.03427 cons=0.00000
+Epoch 17/20 loss=0.03772 cls=0.03772 cons=0.00000
+Epoch 18/20 loss=0.03630 cls=0.03630 cons=0.00000
+Epoch 19/20 loss=0.03456 cls=0.03456 cons=0.00000
+Epoch 20/20 loss=0.03158 cls=0.03158 cons=0.00000
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 3 accuracy: 0.8386
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=1.03074 cls=1.03074 cons=0.00000
+Epoch 02/20 loss=0.48188 cls=0.48188 cons=0.00000
+Epoch 03/20 loss=0.31898 cls=0.31898 cons=0.00000
+Epoch 04/20 loss=0.23755 cls=0.23755 cons=0.00000
+Epoch 05/20 loss=0.18505 cls=0.18505 cons=0.00000
+Epoch 06/20 loss=0.14624 cls=0.14624 cons=0.00000
+Epoch 07/20 loss=0.12461 cls=0.12461 cons=0.00000
+Epoch 08/20 loss=0.10617 cls=0.10617 cons=0.00000
+Epoch 09/20 loss=0.08682 cls=0.08682 cons=0.00000
+Epoch 10/20 loss=0.07724 cls=0.07724 cons=0.00000
+Epoch 11/20 loss=0.05892 cls=0.05892 cons=0.00000
+Epoch 12/20 loss=0.05670 cls=0.05670 cons=0.00000
+Epoch 13/20 loss=0.05957 cls=0.05957 cons=0.00000
+Epoch 14/20 loss=0.04384 cls=0.04384 cons=0.00000
+Epoch 15/20 loss=0.04446 cls=0.04446 cons=0.00000
+Epoch 16/20 loss=0.04219 cls=0.04219 cons=0.00000
+Epoch 17/20 loss=0.04031 cls=0.04031 cons=0.00000
+Epoch 18/20 loss=0.03650 cls=0.03650 cons=0.00000
+Epoch 19/20 loss=0.03216 cls=0.03216 cons=0.00000
+Epoch 20/20 loss=0.03035 cls=0.03035 cons=0.00000
+Fold 4 accuracy: 0.8510
+
+========== OOF SUMMARY ==========
+Accuracy: 0.848827
+Macro P/R/F1: 0.7690 / 0.7056 / 0.7331
+Saved: results\headless_b4_ce_sampler_seed44_20261005_064909
+training\train_cv_unified.py:86: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:214.)
+  torch.as_tensor(weights, dtype=torch.double),
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Device: cuda
+Model: sc b4
+Image size: 384
+Results: results\sc_b4_ce_lambda0.1_sampler_seed44_20261005_090624
+Checkpoints: checkpoints\sc_b4_ce_lambda0.1_sampler_seed44_20261005_090624
+
+========== FOLD 0 ==========
+Epoch 01/20 loss=1.04728 cls=1.02130 cons=0.25982 mask_mean=0.633 mask<0.5=0.364
+Epoch 02/20 loss=0.45713 cls=0.45048 cons=0.06647 mask_mean=0.895 mask<0.5=0.095
+Epoch 03/20 loss=0.32879 cls=0.32524 cons=0.03549 mask_mean=0.914 mask<0.5=0.079
+Epoch 04/20 loss=0.23983 cls=0.23764 cons=0.02188 mask_mean=0.925 mask<0.5=0.070
+Epoch 05/20 loss=0.18768 cls=0.18619 cons=0.01492 mask_mean=0.936 mask<0.5=0.060
+Epoch 06/20 loss=0.14229 cls=0.14122 cons=0.01073 mask_mean=0.948 mask<0.5=0.048
+Epoch 07/20 loss=0.12136 cls=0.12063 cons=0.00734 mask_mean=0.954 mask<0.5=0.042
+Epoch 08/20 loss=0.10342 cls=0.10286 cons=0.00562 mask_mean=0.959 mask<0.5=0.038
+Epoch 09/20 loss=0.08687 cls=0.08643 cons=0.00448 mask_mean=0.961 mask<0.5=0.036
+Epoch 10/20 loss=0.07261 cls=0.07228 cons=0.00338 mask_mean=0.964 mask<0.5=0.033
+Epoch 11/20 loss=0.06589 cls=0.06561 cons=0.00280 mask_mean=0.968 mask<0.5=0.030
+Epoch 12/20 loss=0.05985 cls=0.05961 cons=0.00242 mask_mean=0.971 mask<0.5=0.027
+Epoch 13/20 loss=0.05081 cls=0.05062 cons=0.00189 mask_mean=0.973 mask<0.5=0.025
+Epoch 14/20 loss=0.04952 cls=0.04937 cons=0.00155 mask_mean=0.975 mask<0.5=0.023
+Epoch 15/20 loss=0.04212 cls=0.04198 cons=0.00141 mask_mean=0.979 mask<0.5=0.020
+Epoch 16/20 loss=0.03736 cls=0.03723 cons=0.00130 mask_mean=0.983 mask<0.5=0.016
+Epoch 17/20 loss=0.04062 cls=0.04050 cons=0.00114 mask_mean=0.986 mask<0.5=0.013
+Epoch 18/20 loss=0.03336 cls=0.03326 cons=0.00101 mask_mean=0.988 mask<0.5=0.011
+Epoch 19/20 loss=0.03305 cls=0.03295 cons=0.00100 mask_mean=0.989 mask<0.5=0.011
+Epoch 20/20 loss=0.02891 cls=0.02882 cons=0.00095 mask_mean=0.990 mask<0.5=0.010
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 0 accuracy: 0.8560
+
+========== FOLD 1 ==========
+Epoch 01/20 loss=1.02167 cls=0.99690 cons=0.24774 mask_mean=0.763 mask<0.5=0.224
+Epoch 02/20 loss=0.47845 cls=0.47087 cons=0.07579 mask_mean=0.898 mask<0.5=0.091
+Epoch 03/20 loss=0.32078 cls=0.31694 cons=0.03844 mask_mean=0.912 mask<0.5=0.077
+Epoch 04/20 loss=0.24874 cls=0.24622 cons=0.02516 mask_mean=0.925 mask<0.5=0.066
+Epoch 05/20 loss=0.19150 cls=0.18978 cons=0.01717 mask_mean=0.936 mask<0.5=0.057
+Epoch 06/20 loss=0.15407 cls=0.15291 cons=0.01163 mask_mean=0.943 mask<0.5=0.050
+Epoch 07/20 loss=0.12287 cls=0.12196 cons=0.00903 mask_mean=0.949 mask<0.5=0.045
+Epoch 08/20 loss=0.10742 cls=0.10670 cons=0.00715 mask_mean=0.953 mask<0.5=0.042
+Epoch 09/20 loss=0.08850 cls=0.08796 cons=0.00546 mask_mean=0.956 mask<0.5=0.040
+Epoch 10/20 loss=0.08365 cls=0.08322 cons=0.00424 mask_mean=0.961 mask<0.5=0.035
+Epoch 11/20 loss=0.06879 cls=0.06846 cons=0.00336 mask_mean=0.966 mask<0.5=0.031
+Epoch 12/20 loss=0.05991 cls=0.05965 cons=0.00257 mask_mean=0.969 mask<0.5=0.029
+Epoch 13/20 loss=0.05126 cls=0.05102 cons=0.00239 mask_mean=0.970 mask<0.5=0.028
+Epoch 14/20 loss=0.04758 cls=0.04739 cons=0.00194 mask_mean=0.974 mask<0.5=0.025
+Epoch 15/20 loss=0.04515 cls=0.04497 cons=0.00185 mask_mean=0.976 mask<0.5=0.022
+Epoch 16/20 loss=0.04264 cls=0.04250 cons=0.00138 mask_mean=0.978 mask<0.5=0.021
+Epoch 17/20 loss=0.03919 cls=0.03905 cons=0.00138 mask_mean=0.980 mask<0.5=0.020
+Epoch 18/20 loss=0.03076 cls=0.03065 cons=0.00110 mask_mean=0.981 mask<0.5=0.019
+Epoch 19/20 loss=0.03377 cls=0.03366 cons=0.00104 mask_mean=0.981 mask<0.5=0.019
+Epoch 20/20 loss=0.02817 cls=0.02808 cons=0.00090 mask_mean=0.981 mask<0.5=0.019
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 1 accuracy: 0.8593
+
+========== FOLD 2 ==========
+Epoch 01/20 loss=1.03565 cls=1.01265 cons=0.23006 mask_mean=0.783 mask<0.5=0.194
+Epoch 02/20 loss=0.50375 cls=0.49614 cons=0.07617 mask_mean=0.927 mask<0.5=0.058
+Epoch 03/20 loss=0.32518 cls=0.32124 cons=0.03941 mask_mean=0.946 mask<0.5=0.044
+Epoch 04/20 loss=0.25562 cls=0.25316 cons=0.02454 mask_mean=0.955 mask<0.5=0.038
+Epoch 05/20 loss=0.19430 cls=0.19280 cons=0.01509 mask_mean=0.964 mask<0.5=0.031
+Epoch 06/20 loss=0.15503 cls=0.15391 cons=0.01120 mask_mean=0.968 mask<0.5=0.028
+Epoch 07/20 loss=0.12074 cls=0.11996 cons=0.00779 mask_mean=0.969 mask<0.5=0.027
+Epoch 08/20 loss=0.10490 cls=0.10430 cons=0.00597 mask_mean=0.971 mask<0.5=0.025
+Epoch 09/20 loss=0.08998 cls=0.08951 cons=0.00473 mask_mean=0.974 mask<0.5=0.023
+Epoch 10/20 loss=0.07460 cls=0.07426 cons=0.00340 mask_mean=0.976 mask<0.5=0.022
+Epoch 11/20 loss=0.06845 cls=0.06813 cons=0.00319 mask_mean=0.980 mask<0.5=0.019
+Epoch 12/20 loss=0.05348 cls=0.05325 cons=0.00233 mask_mean=0.981 mask<0.5=0.017
+Epoch 13/20 loss=0.06804 cls=0.06780 cons=0.00240 mask_mean=0.982 mask<0.5=0.017
+Epoch 14/20 loss=0.05163 cls=0.05144 cons=0.00185 mask_mean=0.984 mask<0.5=0.015
+Epoch 15/20 loss=0.04245 cls=0.04229 cons=0.00162 mask_mean=0.987 mask<0.5=0.012
+Epoch 16/20 loss=0.04086 cls=0.04071 cons=0.00149 mask_mean=0.988 mask<0.5=0.011
+Epoch 17/20 loss=0.04073 cls=0.04060 cons=0.00132 mask_mean=0.989 mask<0.5=0.010
+Epoch 18/20 loss=0.03739 cls=0.03729 cons=0.00102 mask_mean=0.990 mask<0.5=0.009
+Epoch 19/20 loss=0.02961 cls=0.02952 cons=0.00096 mask_mean=0.991 mask<0.5=0.009
+Epoch 20/20 loss=0.03399 cls=0.03389 cons=0.00097 mask_mean=0.992 mask<0.5=0.007
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 2 accuracy: 0.8597
+
+========== FOLD 3 ==========
+Epoch 01/20 loss=1.00924 cls=0.98648 cons=0.22763 mask_mean=0.716 mask<0.5=0.275
+Epoch 02/20 loss=0.45714 cls=0.44941 cons=0.07730 mask_mean=0.936 mask<0.5=0.053
+Epoch 03/20 loss=0.32590 cls=0.32177 cons=0.04134 mask_mean=0.954 mask<0.5=0.039
+Epoch 04/20 loss=0.23896 cls=0.23647 cons=0.02494 mask_mean=0.963 mask<0.5=0.031
+Epoch 05/20 loss=0.18266 cls=0.18106 cons=0.01598 mask_mean=0.969 mask<0.5=0.027
+Epoch 06/20 loss=0.14701 cls=0.14594 cons=0.01079 mask_mean=0.974 mask<0.5=0.022
+Epoch 07/20 loss=0.11828 cls=0.11751 cons=0.00768 mask_mean=0.978 mask<0.5=0.019
+Epoch 08/20 loss=0.10803 cls=0.10741 cons=0.00619 mask_mean=0.981 mask<0.5=0.017
+Epoch 09/20 loss=0.08493 cls=0.08444 cons=0.00489 mask_mean=0.982 mask<0.5=0.016
+Epoch 10/20 loss=0.07515 cls=0.07482 cons=0.00332 mask_mean=0.984 mask<0.5=0.015
+Epoch 11/20 loss=0.06693 cls=0.06665 cons=0.00274 mask_mean=0.986 mask<0.5=0.013
+Epoch 12/20 loss=0.05877 cls=0.05852 cons=0.00254 mask_mean=0.987 mask<0.5=0.011
+Epoch 13/20 loss=0.05697 cls=0.05675 cons=0.00221 mask_mean=0.990 mask<0.5=0.009
+Epoch 14/20 loss=0.04607 cls=0.04589 cons=0.00181 mask_mean=0.991 mask<0.5=0.008
+Epoch 15/20 loss=0.04329 cls=0.04313 cons=0.00157 mask_mean=0.993 mask<0.5=0.005
+Epoch 16/20 loss=0.03550 cls=0.03538 cons=0.00114 mask_mean=0.995 mask<0.5=0.004
+Epoch 17/20 loss=0.03291 cls=0.03280 cons=0.00106 mask_mean=0.995 mask<0.5=0.003
+Epoch 18/20 loss=0.03403 cls=0.03393 cons=0.00097 mask_mean=0.996 mask<0.5=0.003
+Epoch 19/20 loss=0.03543 cls=0.03534 cons=0.00091 mask_mean=0.997 mask<0.5=0.002
+Epoch 20/20 loss=0.02864 cls=0.02856 cons=0.00077 mask_mean=0.998 mask<0.5=0.001
+Unexpected keys (bn2.num_batches_tracked, bn2.bias, bn2.running_mean, bn2.running_var, bn2.weight, classifier.bias, classifier.weight, conv_head.weight) found while loading pretrained weights. This may be expected if model is being adapted.
+Fold 3 accuracy: 0.8376
+
+========== FOLD 4 ==========
+Epoch 01/20 loss=1.05339 cls=1.02847 cons=0.24913 mask_mean=0.771 mask<0.5=0.218
+Epoch 02/20 loss=0.48508 cls=0.47737 cons=0.07712 mask_mean=0.907 mask<0.5=0.088
+Epoch 03/20 loss=0.32030 cls=0.31621 cons=0.04087 mask_mean=0.927 mask<0.5=0.066
+Epoch 04/20 loss=0.23308 cls=0.23062 cons=0.02464 mask_mean=0.938 mask<0.5=0.055
+Epoch 05/20 loss=0.18580 cls=0.18423 cons=0.01573 mask_mean=0.947 mask<0.5=0.047
+Epoch 06/20 loss=0.14130 cls=0.14018 cons=0.01119 mask_mean=0.955 mask<0.5=0.040
+Epoch 07/20 loss=0.12319 cls=0.12237 cons=0.00824 mask_mean=0.964 mask<0.5=0.031
+Epoch 08/20 loss=0.10606 cls=0.10544 cons=0.00618 mask_mean=0.972 mask<0.5=0.024
+Epoch 09/20 loss=0.09183 cls=0.09139 cons=0.00449 mask_mean=0.976 mask<0.5=0.020
+Epoch 10/20 loss=0.07557 cls=0.07522 cons=0.00352 mask_mean=0.979 mask<0.5=0.018
+Epoch 11/20 loss=0.05947 cls=0.05918 cons=0.00285 mask_mean=0.982 mask<0.5=0.015
+Epoch 12/20 loss=0.05986 cls=0.05965 cons=0.00219 mask_mean=0.985 mask<0.5=0.013
+Epoch 13/20 loss=0.05613 cls=0.05591 cons=0.00217 mask_mean=0.987 mask<0.5=0.011
+Epoch 14/20 loss=0.04335 cls=0.04318 cons=0.00167 mask_mean=0.988 mask<0.5=0.011
+Epoch 15/20 loss=0.04631 cls=0.04617 cons=0.00144 mask_mean=0.987 mask<0.5=0.011
+Epoch 16/20 loss=0.03913 cls=0.03898 cons=0.00142 mask_mean=0.988 mask<0.5=0.011
+Epoch 17/20 loss=0.04473 cls=0.04461 cons=0.00118 mask_mean=0.990 mask<0.5=0.009
+Epoch 18/20 loss=0.03187 cls=0.03178 cons=0.00091 mask_mean=0.989 mask<0.5=0.009
+Epoch 19/20 loss=0.03353 cls=0.03344 cons=0.00091 mask_mean=0.989 mask<0.5=0.009
+Epoch 20/20 loss=0.03056 cls=0.03048 cons=0.00080 mask_mean=0.989 mask<0.5=0.009
+Fold 4 accuracy: 0.8581
+
+========== OOF SUMMARY ==========
+Accuracy: 0.854119
+Macro P/R/F1: 0.7682 / 0.7057 / 0.7328
+Saved: results\sc_b4_ce_lambda0.1_sampler_seed44_20261005_090624

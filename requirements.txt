@@ -1,0 +1,11 @@
+torch
+torchvision
+timm
+pandas
+numpy
+scikit-learn
+Pillow
+tqdm
+matplotlib
+scipy
+fvcore  # only for analysis/model_complexity.py

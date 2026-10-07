@@ -1,0 +1,64 @@
+{
+  "accuracy": 0.8623065401897154,
+  "macro_precision": 0.7944118183177841,
+  "macro_recall": 0.7229537707486945,
+  "macro_f1": 0.7547300687168875,
+  "n_images": 10015,
+  "n_tta_views": 5,
+  "tta_views": [
+    "original",
+    "hflip",
+    "vflip",
+    "hvflip",
+    "rot10"
+  ],
+  "aggregation": "mean_probability",
+  "fold_metrics": [
+    {
+      "fold": 0,
+      "accuracy": 0.8594836146971202,
+      "macro_precision": 0.7734837353638166,
+      "macro_recall": 0.6905378161578563,
+      "macro_f1": 0.7194216976227029,
+      "n_validation": 2014,
+      "n_lesions": 1495
+    },
+    {
+      "fold": 1,
+      "accuracy": 0.8652979469203805,
+      "macro_precision": 0.7878534280214023,
+      "macro_recall": 0.7364517974892374,
+      "macro_f1": 0.7536838946988729,
+      "n_validation": 1997,
+      "n_lesions": 1494
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.8716417910447761,
+      "macro_precision": 0.7762193036591932,
+      "macro_recall": 0.737036638438424,
+      "macro_f1": 0.7537666183431851,
+      "n_validation": 2010,
+      "n_lesions": 1494
+    },
+    {
+      "fold": 3,
+      "accuracy": 0.8530287984111221,
+      "macro_precision": 0.8126270218298994,
+      "macro_recall": 0.7081570674410542,
+      "macro_f1": 0.7514212211784068,
+      "n_validation": 2014,
+      "n_lesions": 1494
+    },
+    {
+      "fold": 4,
+      "accuracy": 0.8621212121212121,
+      "macro_precision": 0.8259727623759129,
+      "macro_recall": 0.7335962864482405,
+      "macro_f1": 0.7733198710180388,
+      "n_validation": 1980,
+      "n_lesions": 1493
+    }
+  ],
+  "output_dir": "results/tta"
+}

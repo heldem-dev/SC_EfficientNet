@@ -1,0 +1,120 @@
+{
+  "_comment": "Glob patterns are relative to results/. {seed} is replaced by each seed. Set AREA after the pilot (e.g. 0.5).",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "configs": {
+    "B0 baseline": "baseline_b0_ce_seed{seed}_*",
+    "B0 attention-only": "sc_b0_ce_lambda0_attention_only_seed{seed}_*",
+    "B0 SC-v1 (lambda 0.10)": "sc_b0_ce_lambda0.1_seed{seed}_*",
+    "B0 SC-v2": "scv2_b0_ce_lambda0.1_areaAREA_seed{seed}_*",
+    "B0 headless": "headless_b0_ce_seed{seed}_*",
+    "B0 SC no priors": "scnoprior_b0_ce_lambda0.1_seed{seed}_*"
+  },
+  "single_seed_configs": {},
+  "comparisons": [
+    [
+      "B0 headless",
+      "B0 baseline"
+    ],
+    [
+      "B0 attention-only",
+      "B0 headless"
+    ],
+    [
+      "B0 SC-v1 (lambda 0.10)",
+      "B0 headless"
+    ],
+    [
+      "B0 SC-v2",
+      "B0 headless"
+    ],
+    [
+      "B0 SC-v1 (lambda 0.10)",
+      "B0 attention-only"
+    ],
+    [
+      "B0 SC-v2",
+      "B0 attention-only"
+    ],
+    [
+      "B0 SC-v2",
+      "B0 SC-v1 (lambda 0.10)"
+    ],
+    [
+      "B4 headless",
+      "B4 baseline"
+    ],
+    [
+      "B4 SC-v1",
+      "B4 headless"
+    ],
+    [
+      "B4 SC-v2",
+      "B4 headless"
+    ],
+    [
+      "B4 SC-v2",
+      "B4 SC-v1"
+    ],
+    [
+      "B4 SC-v1",
+      "B4 baseline"
+    ],
+    [
+      "B4 SC-v2",
+      "B4 baseline"
+    ],
+    [
+      "B0 SC no priors",
+      "B0 headless"
+    ],
+    [
+      "B0 SC-v2",
+      "B0 SC no priors"
+    ],
+    [
+      "B0 SC no priors",
+      "B0 attention-only"
+    ],
+    [
+      "B0 SC no priors",
+      "B0 SC-v1 (lambda 0.10)"
+    ]
+  ],
+  "artifact_runs": {
+    "B4 baseline": "b4_baseline_artifact*",
+    "B4 SC-v1": "artifact",
+    "B4 SC-v2": "b4_scv2_artifact*"
+  },
+  "artifact_comparisons": [
+    [
+      "B4 SC-v1",
+      "B4 baseline"
+    ],
+    [
+      "B4 SC-v2",
+      "B4 baseline"
+    ],
+    [
+      "B4 SC-v2",
+      "B4 SC-v1"
+    ]
+  ],
+  "b4_seeds": [
+    42,
+    43,
+    44
+  ],
+  "b4_configs": {
+    "B4 baseline": "baseline_b4_ce_sampler_seed{seed}_*",
+    "B4 headless": "headless_b4_ce_sampler_seed{seed}_*",
+    "B4 SC-v1": "sc_b4_ce_lambda0.1_sampler_seed{seed}_*",
+    "B4 SC-v2": "scv2_b4_ce_lambda0.1_areaAREA_sampler_seed{seed}_*"
+  },
+  "b4_seed42_fallback": {
+    "B4 SC-v1": "b4_384"
+  }
+}
