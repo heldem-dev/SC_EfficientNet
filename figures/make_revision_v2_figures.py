@@ -41,6 +41,7 @@ def fig4():
     ax[0].set_ylabel("Mean raw mask value"); ax[1].set_ylabel("Fraction of mask positions < 0.5")
     for a, t in zip(ax, ["(a) Mean mask value", "(b) Spatial selectivity"]):
         a.set_xlabel("Epoch"); a.set_title(t); a.set_ylim(-0.02, 1.02); a.grid(alpha=0.3)
+        a.set_xticks([1, 5, 10, 15, 20]); a.set_xlim(0.5, 20.5)
     ax[1].legend(fontsize=8, loc="center right")
     fig.tight_layout(); fig.savefig(FIG / "Figure4_mask_trajectories.png", dpi=300); plt.close(fig)
 

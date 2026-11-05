@@ -36,18 +36,18 @@ def figure1():
         ax.text(x, 52.5, t, fontsize=10.5, fontweight="bold", color="#222", va="top")
     box(ax, 1, 36, 26, 13, "ISIC 2018 Task 3 training set\n10,015 dermoscopic images\n7,470 distinct lesions, 7 classes", C["data"], bold_first=True, fs=7.8)
     box(ax, 1, 13, 26, 19, "Lesion-level partitioning\nStratifiedGroupKFold (k = 5)\ngroup = lesion_id,\nstratified by diagnosis;\nno lesion in more than one fold", C["data"], bold_first=True, fs=8.3)
-    box(ax, 1, 2, 26, 8, "SC-EfficientNet pilot (fold 0, B0)\npre-specified pass criteria", C["sc"], bold_first=True, fs=8)
+    box(ax, 1, 2, 26, 8, "SC-EfficientNet pilot (fold 0)\nB0; pre-specified pass criteria", C["sc"], bold_first=True, fs=7.6)
     arrow(ax, (14, 36), (14, 32))
     box(ax, 31, 38, 30, 11, "Two scales\nB0: 224 × 224, CE, no sampler\nB4: 384 × 384, CE, weighted sampler", C["model"], bold_first=True, fs=8.3)
-    box(ax, 31, 15, 30, 20, "Five model variants\n•  Standard baseline (1×1 head conv)\n•  Headless control\n•  Attention-only (B0 only)\n•  KL-only ablation (mask via KL only)\n•  SC-EfficientNet (supervised mask + priors)", C["model"], bold_first=True, fs=7.7, ha="left")
+    box(ax, 31, 15, 30, 20, "Six model variants\n•  Standard baseline (1×1 head conv)\n•  Headless control\n•  Attention-only (B0 only)\n•  KL-only ablation (mask via KL only)\n•  SC-EfficientNet (proposed)\n•  SC-EfficientNet without priors (B0 only)", C["model"], bold_first=True, fs=7.5, ha="left")
     box(ax, 31, 2, 30, 10, "Training protocol\nAdam, lr 10⁻⁴, 20 epochs, FP32\nseeds 42, 43, 44; final-epoch model", C["model"], bold_first=True, fs=8.1)
     arrow(ax, (27, 22), (31, 25)); arrow(ax, (27, 6), (31, 7)); arrow(ax, (46, 38), (46, 35)); arrow(ax, (46, 15), (46, 12))
     box(ax, 65, 37, 26, 12, "Pooled OOF predictions\nper configuration and seed\n10,015 held-out images", C["eval"], bold_first=True, fs=8.3)
-    box(ax, 65, 16, 26, 18, "Metrics and paired tests\naccuracy, balanced accuracy,\nmacro-F1 (mean ± SD over seeds);\nlesion-level bootstrap 95% CI;\nexact McNemar test", C["eval"], bold_first=True, fs=7.7)
+    box(ax, 65, 16, 26, 18, "Metrics and paired tests\naccuracy, balanced accuracy,\nmacro-F1 (mean ± SD over seeds);\nlesion-level bootstrap 95% CI;\nlesion-clustered McNemar-type test", C["eval"], bold_first=True, fs=7.7)
     box(ax, 65, 2, 26, 11, "Mask diagnostics\nraw mask mean and fraction\nof positions < 0.5", C["eval"], bold_first=True, fs=8.1)
     arrow(ax, (61, 25), (65, 41)); arrow(ax, (78, 37), (78, 34)); arrow(ax, (78, 16), (78, 13))
     items = [("Official ISIC 2018 test set", "1,512 images; 3 seeds"), ("Synthetic artifacts", "hair, ruler, occlusion; 3 seeds"),
-             ("TTA and XAI", "5 views; attention vs. Grad-CAM"), ("ROC / PR, class-wise", "SC-EfficientNet-B4, seed 42"), ("Complexity and latency", "params, FLOPs, GPU time")]
+             ("TTA and attention maps", "5 views; attention vs. Grad-CAM"), ("ROC / PR, class-wise", "SC-EfficientNet-B4, seed 42"), ("Complexity and latency", "params, FLOPs, GPU time")]
     ys = [41, 31.5, 22, 12.5, 3]
     ax.plot([93, 93], [ys[-1] + 3.5, ys[0] + 3.5], color=C["edge"], lw=1.2)
     ax.plot([91, 93], [43, 43], color=C["edge"], lw=1.2)
