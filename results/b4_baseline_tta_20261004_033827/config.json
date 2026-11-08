@@ -1,0 +1,22 @@
+{
+  "model": "SC-EfficientNet-B4",
+  "backbone": "b4",
+  "input_size": "384x384",
+  "tta_views": [
+    "original",
+    "hflip",
+    "vflip",
+    "hvflip",
+    "rot10"
+  ],
+  "num_tta_views": 5,
+  "aggregation": "mean_probability",
+  "split_protocol": "fixed stratified group 5-fold by lesion_id",
+  "metadata": "HAM10000_metadata.csv",
+  "split_file": "splits\\stratified_group_5fold.csv",
+  "checkpoint_dir": "checkpoints\\baseline_b4_ce_sampler_seed42_20261004_011037",
+  "device": "cuda",
+  "batch_size": 16,
+  "num_workers": 6,
+  "timestamp": "20261004_033827"
+}

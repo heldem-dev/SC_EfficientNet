@@ -1,0 +1,42 @@
+{
+  "model": "sc",
+  "backbone": "b0",
+  "img_size": 224,
+  "loss": "ce",
+  "sampler": false,
+  "sampler_definition": "inverse class frequency over the training fold; replacement=True",
+  "lambda_c": 0.1,
+  "attention_only_ablation": false,
+  "objective": "sc_v2",
+  "area_target": 0.5,
+  "w_masked_ce": 1.0,
+  "w_area": 1.0,
+  "w_bin": 0.5,
+  "focal_gamma": 2.0,
+  "focal_alpha": 1.0,
+  "epochs": 20,
+  "folds_requested": 5,
+  "folds_run": [
+    0
+  ],
+  "batch_size": 32,
+  "lr": 0.0001,
+  "optimizer": "Adam",
+  "seed": 42,
+  "device": "cuda",
+  "num_classes": 7,
+  "num_workers": 6,
+  "pretrained": true,
+  "class_names": [
+    "MEL",
+    "NV",
+    "BCC",
+    "AKIEC",
+    "BKL",
+    "DF",
+    "VASC"
+  ],
+  "split_file": "splits/stratified_group_5fold.csv",
+  "data_dir": "skin_cancer_data",
+  "timestamp": "20261004_093332"
+}

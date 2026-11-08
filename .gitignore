@@ -35,3 +35,6 @@ HAM10000_metadata.csv
 ._*
 .vscode/
 .idea/
+
+# Windows folder settings
+desktop.ini

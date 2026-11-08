@@ -1,0 +1,28 @@
+{
+  "accuracy": 0.8341608738828202,
+  "macro_precision": 0.6843819956259086,
+  "macro_recall": 0.6513468360821603,
+  "macro_f1": 0.662042284950419,
+  "weighted_precision": 0.8225020056909129,
+  "weighted_recall": 0.8341608738828202,
+  "weighted_f1": 0.8238940151735835,
+  "n_samples": 2014,
+  "fold_metrics": [
+    {
+      "fold": 0,
+      "accuracy": 0.8341608738828202,
+      "macro_precision": 0.6843819956259086,
+      "macro_recall": 0.6513468360821603,
+      "macro_f1": 0.662042284950419,
+      "balanced_accuracy": 0.6513468360821603,
+      "mask_mean": 0.9837273359298706,
+      "weighted_precision": 0.8225020056909129,
+      "weighted_recall": 0.8341608738828202,
+      "weighted_f1": 0.8238940151735835,
+      "n_train": 8001,
+      "n_val": 2014,
+      "n_train_lesions": 5975,
+      "n_val_lesions": 1495
+    }
+  ]
+}
