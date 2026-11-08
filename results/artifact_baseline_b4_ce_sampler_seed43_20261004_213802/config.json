@@ -1,0 +1,23 @@
+{
+  "protocol": "synthetic_artifact_robustness",
+  "model": "SC-EfficientNet-B4",
+  "backbone": "efficientnet_b4",
+  "img_size": 384,
+  "checkpoint_dir": "checkpoints\\baseline_b4_ce_sampler_seed43_20261004_213802",
+  "image_root": "skin_cancer_data",
+  "split_file": "splits\\stratified_group_5fold.csv",
+  "folds": 5,
+  "seed": 42,
+  "artifacts": [
+    "clean",
+    "hair",
+    "ruler",
+    "occlusion"
+  ],
+  "artifact_definitions": {
+    "hair": "3-6 deterministic thin dark hair-like strokes",
+    "ruler": "one deterministic linear marking plus tick marks",
+    "occlusion": "one deterministic semi-transparent circular/elliptical obstruction"
+  },
+  "note": "Synthetic perturbations; this experiment does not quantify robustness to naturally occurring artifacts."
+}

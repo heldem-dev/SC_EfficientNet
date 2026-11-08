@@ -1,0 +1,28 @@
+{
+  "model": "sc",
+  "backbone": "b4",
+  "img_size": 384,
+  "loss": "ce",
+  "sampler": true,
+  "lambda_c": 0.1,
+  "attention_only_ablation": false,
+  "epochs": 20,
+  "folds": 5,
+  "batch_size": 16,
+  "lr": 0.0001,
+  "seed": 42,
+  "device": "cuda",
+  "num_classes": 7,
+  "num_workers": 4,
+  "class_names": [
+    "MEL",
+    "NV",
+    "BCC",
+    "AKIEC",
+    "BKL",
+    "DF",
+    "VASC"
+  ],
+  "split_file": "splits/stratified_group_5fold.csv",
+  "timestamp": "20260921_190127"
+}
