@@ -9,12 +9,15 @@ exported out-of-fold (OOF) predictions in `results/` **without retraining**.
 ## Overview
 
 SC-EfficientNet (Supervised-Consistency EfficientNet) adds a learned spatial mask to the final EfficientNet
-feature map and predicts from an attention-masked path. The masked path is supervised with the classification
-loss, regularized toward a stop-gradient copy of the original prediction by a Kullback–Leibler (KL) term, and the
-mask is constrained by an area prior and a binarization penalty.
+feature map and predicts from an attention-masked path. The masked prediction branch is supervised with the class
+labels, regularized toward a stop-gradient copy of the original prediction by a Kullback–Leibler (KL) term, and the
+mask is constrained by an area prior and a binarization penalty. "Supervised" refers to this class-label supervision
+of the masked branch: the mask itself receives no lesion-mask, boundary, or artifact annotation.
 
 The originally submitted formulation, in which the mask is trained **only** through the KL term, is retained as
 the **KL-only ablation**. In every run it collapses to a nearly constant mask; SC-EfficientNet prevents this collapse.
+Additional single-fold checks (`results/collapse_check/`) show that the collapse persists with λ = 1.0, a head shared
+by both paths, and a zero-initialized attention module, and that λ = 5.0 only slows it.
 
 All experiments use the ISIC 2018 Task 3 training set (10,015 images, 7,470 lesions) with **lesion-level**
 five-fold Stratified Group K-Fold cross-validation (`splits/stratified_group_5fold.csv`, grouped by `lesion_id`),
@@ -34,6 +37,7 @@ Folder and command-line names in this repository predate the final terminology o
 | **SC-EfficientNet** (proposed) | `--model sc --objective sc_v2 --area_target 0.5 --w_bin 0.1` | `scv2_b0_*`, `scv2_b4_*` |
 | SC-EfficientNet without mask priors (B0) | `--model sc --objective sc_v2 --w_area 0 --w_bin 0` | `scnoprior_b0_*` |
 | Pre-specified pilot (fold 0) | see `run_v2.ps1`, phase 2 | `pilot_scv2_*` |
+| KL-only collapse checks (B0, fold 0, seed 42) | `--model sc --fold_ids 0` with `--lambda_c 1.0`, `--lambda_c 5.0` (20 or 40 epochs), `--shared_head`, or `--attn_init zero`; see `run_collapse_check.ps1` | `results/collapse_check/` |
 
 In the analysis scripts, `SC-v1` denotes the KL-only ablation and `SC-v2` denotes SC-EfficientNet.
 
@@ -45,13 +49,15 @@ training/      train_cv_unified.py (all configurations), train_cv.py (legacy)
 utils/         losses / training loop (incl. SC-EfficientNet objective), seeding
 data_utils/    dataset and class definitions
 evaluation/    TTA, synthetic artifacts, XAI (attention vs. Grad-CAM), official test set, latency
-analysis/      statistics (bootstrap, McNemar), multi-seed summaries, pilot gate, model complexity
+analysis/      statistics (bootstrap, image-level and lesion-clustered McNemar), multi-seed summaries,
+               pilot gate, model complexity, melanoma operating point
 figures/       figure-generation scripts and exported figures
 splits/        fixed lesion-level fold assignment (no lesion in more than one fold)
 configs/       configuration files of the original runs
 results/       exported OOF predictions, metrics, and statistics of all runs
 logs/          training and evaluation logs
 run_v2.ps1     the complete revision experiment plan (PowerShell, phases 1–7)
+run_collapse_check.ps1   collapse checks of the KL-only formulation (Section 4.2)
 ```
 
 ## Setup
@@ -80,12 +86,18 @@ python analysis/compare_runs.py --area 0.5        # Tables 4–5, mask statistic
 python analysis/final_inference_summary.py         # official test set (Table 10), multi-seed artifacts (Table 8)
 python analysis/model_complexity.py                # parameters and FLOPs (Table 3)
 python figures/make_revision_v2_figures.py         # Figures 4, 11, 12, 13
-python figures/make_detailed_figures_sc.py         # Figures 5–10 and Tables 6–7 (SC-EfficientNet-B4, seed 42)
+python analysis/clustered_mcnemar.py               # lesion-clustered paired tests (Table 5, Section 4.4)
+python analysis/melanoma_operating_point.py --runs_dir results --test_dir results/official_test \
+       --gt ISIC2018_Task3_Test_GroundTruth.csv   # melanoma operating point (Section 5.2)
+python figures/make_detailed_figures_sc.py         # Figures 5–10 and Tables 6–7 (SC-EfficientNet-B4, seed 42) -> figures/sc_seed42/
 python figures/make_schematics.py                  # Figures 1 and 3
+python analysis/collapse_check_summary.py --runs_dir results   # collapse checks, Section 4.2
 ```
 
-Bootstrap analyses resample whole lesions (2,000 resamples, seed 42). McNemar tests are exact binomial tests on
-discordant predictions.
+Bootstrap analyses resample whole lesions (2,000 resamples, seed 42). Because images of the same lesion are not
+independent, the manuscript reports the lesion-clustered paired test of Obuchowski (1998) for the out-of-fold
+comparisons; the image-level exact McNemar test is computed alongside for reference (`analysis/clustered_mcnemar.py`).
+Lesion identifiers are not available for the official test set, so only image-level tests are possible there.
 
 ## Reproducing the experiments (GPU)
 
@@ -112,6 +124,13 @@ python -m evaluation.evaluate_official_test --test_images isic2018_test/ISIC2018
 python -m evaluation.benchmark_latency
 ```
 
+Collapse checks of the KL-only formulation (fold 0, seed 42; `--shared_head` lets the masked path use the linear head
+of the original path, `--attn_init zero` initializes the attention convolution to zero so that the mask starts at 0.5):
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\run_collapse_check.ps1
+```
+
 `run_v2.ps1` contains the full sequence used for the revision (Windows PowerShell; `.\run_v2.ps1 -Phase <n>`).
 The model type and backbone are read from each checkpoint, so all evaluation scripts work for every configuration.
 
@@ -119,8 +138,8 @@ The model type and backbone are read from each checkpoint, so all evaluation scr
 
 Adam, learning rate 1 × 10⁻⁴ (constant), 20 epochs, no backbone freezing, FP32; batch size 32 (B0) or 16 (B4);
 weighted random sampling for B4 (inverse class frequency of the training portion of each fold). The model after the
-final epoch of each fold is evaluated; no checkpoint is selected on held-out data. The seed also controls data order
-and sampling. SC-EfficientNet: λ = 0.10, ρ = 0.5, β_area = 1, β_bin = 0.1, fixed before the pilot
+final epoch of each fold is evaluated; no checkpoint is selected on held-out data. The seed also controls the random
+initialization of the attention module and the linear heads, the data order, and sampling. SC-EfficientNet: λ = 0.10, ρ = 0.5, β_area = 1, β_bin = 0.1, fixed before the pilot
 (`analysis/pilot_check.py`, criteria in the manuscript, Section 4.1).
 
 ## Notes and limitations
@@ -129,6 +148,8 @@ and sampling. SC-EfficientNet: λ = 0.10, ρ = 0.5, β_area = 1, β_bin = 0.1, f
   (`results/b4_384`) is the original run of that configuration, trained with an earlier version of the training
   script; it does not contain raw mask statistics. An earlier single-seed λ sweep (`results/b0_ablation/`) was run on
   a different workstation. Bit-level reproducibility across hardware is not expected.
+* The collapse checks (`results/collapse_check/`) were run for a single fold and seed at the B0 scale; other
+  consistency formulations (e.g., symmetric divergences, masks on intermediate layers) were not examined.
 * Trained checkpoints are not included because of their size.
 * Lesion identifiers are not provided for the official test set, so lesion overlap with the training set cannot be excluded.
 
